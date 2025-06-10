@@ -157,14 +157,14 @@ input.readonly-txt.disabled-style[type=number]:read-only { background-color: var
 input[type="checkbox"] {
 	display:inline-block; vertical-align: middle; width:22px; height:22px; border: 1px solid var(--bd-color); border-radius:4px;cursor:pointer;background-color:var(--white);outline:0}
 input[type="checkbox"]:checked {
-	background: var(--pri) url(../../images/biz2/ico/ico_check_white.svg) no-repeat center;
+	background: var(--pri) url(https://www.lllcard.kr/images/biz2/ico/ico_check_white.svg) no-repeat center;
 	border: 1px solid transparent;
 }
 /* 비활성화 */
 input[type="checkbox"][disabled]{background-color: var(--bg-color)}
 input[type="checkbox"][disabled]::after{display:none}
 /* 비활성화 체크 */
-input[type="checkbox"]:checked:disabled{background: #EEE url(../../images/biz2/ico/ico_checkbox_disabled.svg) no-repeat center}
+input[type="checkbox"]:checked:disabled{background: #EEE url(https://www.lllcard.kr/images/biz2/ico/ico_checkbox_disabled.svg) no-repeat center}
 input[type="checkbox"]:checked:disabled{border: 1px solid var(--bd-color)}
 input[type="checkbox"]:checked:disabled::after{display:block}
 
@@ -177,7 +177,7 @@ input[type="date"]{
 	height: 44px;
 	padding-left: 10px;
 	border-radius: 8px;
-	background: #fff url(../../images/biz2/ico/ico_calendar.svg) no-repeat right 16px center;}
+	background: #fff url(https://www.lllcard.kr/images/biz2/ico/ico_calendar.svg) no-repeat right 16px center;}
 
 /* readonly 너비값 초기화 공통 */
 .input-reset input { width: 0; appearance: none; padding: 0; flex: 0!important;}
@@ -268,7 +268,7 @@ input.readonly-txt[type="number"].no-border-init:read-only {
 .btn-bd.black:focus,
 .btn-bd.black:active{border-color:#333 !important; background-color: #F7F9FC;}
 .btn-bd.blue.small{height:44px;padding:10px 12px;font-size:16px}
-.btn-search{display:inline-block;width:24px;height:24px;background:url(../../images/biz2/ico/ico_search.svg) no-repeat center;font-size:0}
+.btn-search{display:inline-block;width:24px;height:24px;background:url(https://www.lllcard.kr/images/biz2/ico/ico_search.svg) no-repeat center;font-size:0}
 .btn-list{max-width:160px}
 .btns-bottom{display:flex;justify-content:center;max-width:512px;margin:40px auto 0;gap:16px; width: 100%;}
 .btns-bottom a,
@@ -277,7 +277,7 @@ input.readonly-txt[type="number"].no-border-init:read-only {
 /* .btn-download, */
 .btn-download:hover, .btn-download:focus, .btn-download:active {background-color: transparent !important;}
 /* 공통 더보기 버튼 */
-.more-info-btn::before{content:'';display:inline-block;vertical-align:middle;background:url(../../images/biz2/ico/ico_more_btn.svg) no-repeat center;width:24px;height:24px}
+.more-info-btn::before{content:'';display:inline-block;vertical-align:middle;background:url(https://www.lllcard.kr/images/biz2/ico/ico_more_btn.svg) no-repeat center;width:24px;height:24px}
 
 /* 첨부파일 */
 /* 20241209 이민혁 수정 간격 및 패딩 값 디자인 맞춰 수정 */
@@ -342,8 +342,8 @@ ul.txt-indent-14 > li {padding-left: 14px; text-indent: -14px;}
 .paging .pg {display: flex; gap: 8px;}
 .paging .pg > a {background: #EEEEEE;}
 .paging .pg > a::before {content: ''; display: inline-block; width: 100%; height: 100%; background-size: 20px auto; background-repeat: no-repeat; background-position: center center;}
-.paging :where(a.prev, a.next)::before {background-image: url(../../images/biz2/ico/ico_paging_arrow.svg)}
-.paging :where(a.first, a.last)::before {background-image: url(../../images/biz2/ico/ico_paging_arrow_double.svg);}
+.paging :where(a.prev, a.next)::before {background-image: url(https://www.lllcard.kr/images/biz2/ico/ico_paging_arrow.svg)}
+.paging :where(a.first, a.last)::before {background-image: url(https://www.lllcard.kr/images/biz2/ico/ico_paging_arrow_double.svg);}
 .paging a.next::before {transform: rotate(180deg);}
 .paging a.last::before {transform: rotate(180deg);}
 .paging .num {display: flex; align-items: center; gap: 8px;}
@@ -390,11 +390,11 @@ ul.txt-indent-14 > li {padding-left: 14px; text-indent: -14px;}
 /* tooltip 공통 */
 .tooltip{position:relative}
 .tooltip-content{display:none; z-index:1; position:absolute; width:var(--width, 246px); text-align:left; padding:12px; color:#fff; background:#4C85BA; border-radius:10px; font-weight:500; top:var(--y-pos, 100%); right:var(--x-pos, -28px); margin-top:12px;}
-.tooltip-content::before{content:''; display:inline-block; width:14px; height:12px; position:absolute; right:34px; top:-10px; background:url(../../images/biz2/ico/ico_tooltip_arrow.svg) no-repeat center;} 
+.tooltip-content::before{content:''; display:inline-block; width:14px; height:12px; position:absolute; right:34px; top:-10px; background:url(https://www.lllcard.kr/images/biz2/ico/ico_tooltip_arrow.svg) no-repeat center;} 
 .useVc .tooltip-content .bullet-list{margin-top:0}
 .tooltip-content .bullet-list li{font-size:18px;padding-left:20px}
 .tooltip-content .bullet-list li::before{background-color:#fff}   
-.tooltip .tooltip-txt::after{content:'';display:inline-block;width:24px;height:24px;background:url(../../images/biz2/ico/ico_tooltip.svg) no-repeat center;vertical-align:middle;margin-left:10px}
+.tooltip .tooltip-txt::after{content:'';display:inline-block;width:24px;height:24px;background:url(https://www.lllcard.kr/images/biz2/ico/ico_tooltip.svg) no-repeat center;vertical-align:middle;margin-left:10px}
 .tooltip:hover .tooltip-content{display:block} 
 
 /* custom select 공통 */
@@ -403,8 +403,8 @@ ul.txt-indent-14 > li {padding-left: 14px; text-indent: -14px;}
 .custom-select-list > li > a{display:block;line-height:36px;font-weight:500;padding:0 16px}
 .custom-select-list > li > a{line-height:inherit; padding:7px 16px}
 .custom-select-list > li > a:hover{background:var(--pri);color:var(--white)}
-button.custom-select-open {display:flex;align-items:center;justify-content:space-between;padding:0 16px;width:100%;font-weight:500;height:44px;font-size:20px;border:1px solid var(--bd-color);background:#fff url(../../images/biz2/ico/ico_arrow_big.svg) no-repeat right 16px center;border-radius:10px; color: var(--ph-color);}
-button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico_arrow_big_top.svg) no-repeat right 16px center}
+button.custom-select-open {display:flex;align-items:center;justify-content:space-between;padding:0 16px;width:100%;font-weight:500;height:44px;font-size:20px;border:1px solid var(--bd-color);background:#fff url(https://www.lllcard.kr/images/biz2/ico/ico_arrow_big.svg) no-repeat right 16px center;border-radius:10px; color: var(--ph-color);}
+button.custom-select-open.is-open {background:#fff url(https://www.lllcard.kr/images/biz2/ico/ico_arrow_big_top.svg) no-repeat right 16px center}
 /* custom select 오픈 스타일 */
 .custom-select-box.is-open{position:relative; z-index: 999;}
 .custom-select-box.is-open .custom-select-list{display:block;position:absolute;z-index:-1;width:100%; height: 280px; left:0;bottom:calc(100% - 11.5px);background:#fff;border:1px solid var(--bd-color)}
@@ -439,7 +439,7 @@ button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico
 .add-file .attached-file .ico-pdf{margin-right:15px}
 .article-list{margin-top:40px;border-top:1px solid var(--bd-color);font-size:17px}
 .article-list li{padding:11px 16px;border-bottom:1px solid var(--bd-color);font-weight:400} 
-.article-list li a::before{width:20px;height:20px;margin:-3px 3px 0 0;background:url(../../images/biz2/ico/ico_list.svg) no-repeat center}
+.article-list li a::before{width:20px;height:20px;margin:-3px 3px 0 0;background:url(https://www.lllcard.kr/images/biz2/ico/ico_list.svg) no-repeat center}
 .article-list li a::after{width:1px;height:8px;margin:0 16px;background-color:var(--bg-color)}
 .article-list li.next-list a::before{transform:rotate(180deg)}
 
@@ -531,8 +531,8 @@ button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico
 .conts-header .border-box p+p{margin-left:26px}
 .conts-header .border-box p img{margin-right:8px}
 
-.com-view-table .ico.map-no::before{width:40px;height:40px;border:0;background:url(../../images/biz2/ico/ico_unmapped.svg) no-repeat center}
-.com-view-table .ico.map-yes::before{width:40px;height:40px;border:0;background:url(../../images/biz2/ico/ico_complete.svg) no-repeat center}
+.com-view-table .ico.map-no::before{width:40px;height:40px;border:0;background:url(https://www.lllcard.kr/images/biz2/ico/ico_unmapped.svg) no-repeat center}
+.com-view-table .ico.map-yes::before{width:40px;height:40px;border:0;background:url(https://www.lllcard.kr/images/biz2/ico/ico_complete.svg) no-repeat center}
 
 
 
@@ -569,9 +569,9 @@ button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico
 .useVc .com-write-table td .btn-search{width:26px;height:26px;}
 
 .mail-agree{margin-top:10px}
-.mail-agree .ico::before{width:22px;height:22px;margin-left:3px;background:url(../../images/biz2/ico/ico_checkbox.svg) no-repeat center}
-.mail-yes::before{content:'';display:inline-block;width:22px;height:22px;margin-left:3px;background:url(../../images/biz2/ico/ico_checkbox.svg) no-repeat center;vertical-align:middle}
-.mail-no::before{content:'';display:inline-block;width:22px;height:22px;margin-left:3px;background:url(../../images/biz2/ico/ico_checkbox_n.svg) no-repeat center;vertical-align:middle}
+.mail-agree .ico::before{width:22px;height:22px;margin-left:3px;background:url(https://www.lllcard.kr/images/biz2/ico/ico_checkbox.svg) no-repeat center}
+.mail-yes::before{content:'';display:inline-block;width:22px;height:22px;margin-left:3px;background:url(https://www.lllcard.kr/images/biz2/ico/ico_checkbox.svg) no-repeat center;vertical-align:middle}
+.mail-no::before{content:'';display:inline-block;width:22px;height:22px;margin-left:3px;background:url(https://www.lllcard.kr/images/biz2/ico/ico_checkbox_n.svg) no-repeat center;vertical-align:middle}
 
 .division .flex-ac{gap:30px}
 .input-group .flex-ac{gap:10px}
@@ -590,9 +590,9 @@ button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico
 .divide .chk-box{width:calc(80% / 3)}
 .com-write-table table td.type-wrap{padding:30px 20px;font-size:18px}
 .row-gap{display:flex;flex-direction:column;row-gap:26px}
-.chk-box .organ01::after{background:url(../../images/biz2/ico/ico_organ01.svg) no-repeat center}
-.chk-box .organ02::after{background:url(../../images/biz2/ico/ico_organ02.svg) no-repeat center}
-.chk-box .organ03::after{background:url(../../images/biz2/ico/ico_organ03.svg) no-repeat center}
+.chk-box .organ01::after{background:url(https://www.lllcard.kr/images/biz2/ico/ico_organ01.svg) no-repeat center}
+.chk-box .organ02::after{background:url(https://www.lllcard.kr/images/biz2/ico/ico_organ02.svg) no-repeat center}
+.chk-box .organ03::after{background:url(https://www.lllcard.kr/images/biz2/ico/ico_organ03.svg) no-repeat center}
 .chk-box .ico {margin-left: 10px;}
 
 .program-process .flex-ac,
@@ -623,13 +623,13 @@ button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico
 .quiz-area dd p small::before{width:4px;height:4px;margin:6px 10px 10px;border-radius:50%;background-color:#1c8a90}
 .quiz-area dd .flex-ac{padding:20px 40px;gap:20px}
 .quiz-area dd .flex-ac .btns{width:100px;height:110px;padding:0;font-size:20px;font-weight:500}
-.quiz-area dd .flex-ac .btns::before{content:"";display:block;width:60px;height:60px;margin:0 auto;background:url(../../images/biz2/ico/ico_o.svg) no-repeat 0 0}
-.quiz-area dd .flex-ac .btns.no-sign::before{background:url(../../images/biz2/ico/ico_x.svg) no-repeat 0 0}
+.quiz-area dd .flex-ac .btns::before{content:"";display:block;width:60px;height:60px;margin:0 auto;background:url(https://www.lllcard.kr/images/biz2/ico/ico_o.svg) no-repeat 0 0}
+.quiz-area dd .flex-ac .btns.no-sign::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_x.svg) no-repeat 0 0}
 .quiz-area.quiz-result dd  { background-color: var(--bg-color);}
 .quiz-area.quiz-result dd p { border-right: 0;}
 .quiz-area.quiz-result .btns {color: var(--pri-txt-color); background-color: #eee;}
-.quiz-area.quiz-result dd .flex-ac .btns::before{background:url(../../images/biz2/ico/ico_o_result.svg) no-repeat 0 0;}
-.quiz-area.quiz-result dd .flex-ac .btns.no-sign::before{background:url(../../images/biz2/ico/ico_x_result.svg) no-repeat 0 0}
+.quiz-area.quiz-result dd .flex-ac .btns::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_o_result.svg) no-repeat 0 0;}
+.quiz-area.quiz-result dd .flex-ac .btns.no-sign::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_x_result.svg) no-repeat 0 0}
 .result-tlt{display: block; margin-top: 40px; font-size: 38px; text-align: center;}
 
 /* IIP_800 이용권 사용기관 신청 현황 */
@@ -658,9 +658,9 @@ button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico
 
 /* LNP_201 자주하는질문 상세 */
 .qna .conts-header{align-items:end} 
-.qna .conts-header h3.ico::before{background:url(../../images/biz2/ico/ico_question.svg) no-repeat center;width:60px;height:60px;margin-right:16px}
+.qna .conts-header h3.ico::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_question.svg) no-repeat center;width:60px;height:60px;margin-right:16px}
 .qna .qna-answer{font-size:38px;margin-bottom:30px}
-.qna .qna-answer.ico::before{background:url(../../images/biz2/ico/ico_answer.svg) no-repeat center;background-size:cover;width:46px;height:46px;margin-right:16px}
+.qna .qna-answer.ico::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_answer.svg) no-repeat center;background-size:cover;width:46px;height:46px;margin-right:16px}
 .qna-attached{display:block;font-weight:700}
 .qna-answer-details{padding-top:30px;padding-bottom:30px;border-bottom:1px solid var(--bd-color);}
 .qna-table thead th{text-align:left;padding-left:40px}
@@ -726,22 +726,22 @@ button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico
 .auth-area-in button{font-weight:700;font-size:24px;flex:1;height:250px;border:1px solid green;border-radius:20px;background:var(--bg-color);border:1px solid var(--bd-color);display:flex;flex-direction:column;justify-content:center;align-items:center}
 .auth-area-in button::before{height:110px;margin-bottom:30px}
 .auth-area-in button:not(.simple)::before{width:110px}
-.auth-area-in button.simple::before{width:184px;background:url(../../images/biz2/ico/ico_simple_group.png) no-repeat center}
-.auth-area-in button.joint::before{background:url(../../images/biz2/ico/ico_joint.svg) no-repeat center}
-.auth-area-in button.mo-auth::before{background:url(../../images/biz2/ico/ico_moauth.svg) no-repeat center}
-.auth-area-in button.i-pin::before{background:url(../../images/biz2/ico/ico_ipin.svg) no-repeat center}
+.auth-area-in button.simple::before{width:184px;background:url(https://www.lllcard.kr/images/biz2/ico/ico_simple_group.png) no-repeat center}
+.auth-area-in button.joint::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_joint.svg) no-repeat center}
+.auth-area-in button.mo-auth::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_moauth.svg) no-repeat center}
+.auth-area-in button.i-pin::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_ipin.svg) no-repeat center}
 .birth-chk input[type="number"]{width:268px}
 .birth-chk input[type="password"]{max-width:49px !important}
 .useVc .birth-chk input[type="password"]{max-width:100% !important}
 
 /* button is-active 스타일 */
 .auth-area-in button.is-active{background:var(--pri);color:var(--white)}
-.auth-area-in button.is-active.joint::before{background:url(../../images/biz2/ico/ico_joint_white.svg) no-repeat center}
-.auth-area-in button.is-active.mo-auth::before{background:url(../../images/biz2/ico/ico_moauth_white.svg) no-repeat center}
+.auth-area-in button.is-active.joint::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_joint_white.svg) no-repeat center}
+.auth-area-in button.is-active.mo-auth::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_moauth_white.svg) no-repeat center}
 
 /* LCP_003 본인인증 확인 */
 .result-chk > p{font-size:32px;font-weight:700;padding-top:40px;padding-bottom:40px}
-.result-chk .ico::before{background:url(../../images/biz2/ico/ico_check.svg) no-repeat center; background-size: 100px auto; width:100%; height: 100px;}
+.result-chk .ico::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_check.svg) no-repeat center; background-size: 100px auto; width:100%; height: 100px;}
 
 
 /* LAP_103 학습계획서 팝업 */
@@ -770,7 +770,7 @@ button.custom-select-open.is-open {background:#fff url(../../images/biz2/ico/ico
 display: block;
 width: 148px; height: 148px;
 margin: 0 auto;
-background: #fff url(../../images/biz2/step/step_application_form.svg) no-repeat center / 92px auto;
+background: #fff url(https://www.lllcard.kr/images/biz2/step/step_application_form.svg) no-repeat center / 92px auto;
 border-radius: 15px;
 }
 .step-list .step.step-prev .step-icon { border: 1px solid var(--pri); }
@@ -800,23 +800,23 @@ step_completion            		작성완료, 신청완료
 step_qualification_check   		자격확인
 step_user_commitment      		이용자서약
 */
-.step-list .step .step-icon.step_terms_agreement {background-image: url(../../images/biz2/step/step_terms_agreement.svg);}
-.step-list .step .step-icon.step_identity_verification {background-image: url(../../images/biz2/step/step_identity_verification.svg);}
-.step-list .step .step-icon.step_application_form {background-image: url(../../images/biz2/step/step_application_form.svg);}
-.step-list .step .step-icon.step_manager_registration {background-image: url(../../images/biz2/step/step_manager_registration.svg);}
-.step-list .step .step-icon.step_attachment {background-image: url(../../images/biz2/step/step_attachment.svg);}
-.step-list .step .step-icon.step_completion {background-image: url(../../images/biz2/step/step_completion.svg);}
-.step-list .step .step-icon.step_qualification_check {background-image: url(../../images/biz2/step/step_qualification_check.svg);}
-.step-list .step .step-icon.step_user_commitment {background-image: url(../../images/biz2/step/step_user_commitment.svg);}
+.step-list .step .step-icon.step_terms_agreement {background-image: url(https://www.lllcard.kr/images/biz2/step/step_terms_agreement.svg);}
+.step-list .step .step-icon.step_identity_verification {background-image: url(https://www.lllcard.kr/images/biz2/step/step_identity_verification.svg);}
+.step-list .step .step-icon.step_application_form {background-image: url(https://www.lllcard.kr/images/biz2/step/step_application_form.svg);}
+.step-list .step .step-icon.step_manager_registration {background-image: url(https://www.lllcard.kr/images/biz2/step/step_manager_registration.svg);}
+.step-list .step .step-icon.step_attachment {background-image: url(https://www.lllcard.kr/images/biz2/step/step_attachment.svg);}
+.step-list .step .step-icon.step_completion {background-image: url(https://www.lllcard.kr/images/biz2/step/step_completion.svg);}
+.step-list .step .step-icon.step_qualification_check {background-image: url(https://www.lllcard.kr/images/biz2/step/step_qualification_check.svg);}
+.step-list .step .step-icon.step_user_commitment {background-image: url(https://www.lllcard.kr/images/biz2/step/step_user_commitment.svg);}
 /* active */
-.step-list .step.step-active .step-icon.step_terms_agreement {background-image: url(../../images/biz2/step/step_terms_agreement_active.svg);}
-.step-list .step.step-active .step-icon.step_identity_verification {background-image: url(../../images/biz2/step/step_identity_verification_active.svg);}
-.step-list .step.step-active .step-icon.step_application_form {background-image: url(../../images/biz2/step/step_application_form_active.svg);}
-.step-list .step.step-active .step-icon.step_manager_registration {background-image: url(../../images/biz2/step/step_manager_registration_active.svg);}
-.step-list .step.step-active .step-icon.step_attachment {background-image: url(../../images/biz2/step/step_attachment_active.svg);}
-.step-list .step.step-active .step-icon.step_completion {background-image: url(../../images/biz2/step/step_completion_active.svg);}
-.step-list .step.step-active .step-icon.step_qualification_check {background-image: url(../../images/biz2/step/step_qualification_check_active.svg);}
-.step-list .step.step-active .step-icon.step_user_commitment {background-image: url(../../images/biz2/step/step_user_commitment_active.svg);}
+.step-list .step.step-active .step-icon.step_terms_agreement {background-image: url(https://www.lllcard.kr/images/biz2/step/step_terms_agreement_active.svg);}
+.step-list .step.step-active .step-icon.step_identity_verification {background-image: url(https://www.lllcard.kr/images/biz2/step/step_identity_verification_active.svg);}
+.step-list .step.step-active .step-icon.step_application_form {background-image: url(https://www.lllcard.kr/images/biz2/step/step_application_form_active.svg);}
+.step-list .step.step-active .step-icon.step_manager_registration {background-image: url(https://www.lllcard.kr/images/biz2/step/step_manager_registration_active.svg);}
+.step-list .step.step-active .step-icon.step_attachment {background-image: url(https://www.lllcard.kr/images/biz2/step/step_attachment_active.svg);}
+.step-list .step.step-active .step-icon.step_completion {background-image: url(https://www.lllcard.kr/images/biz2/step/step_completion_active.svg);}
+.step-list .step.step-active .step-icon.step_qualification_check {background-image: url(https://www.lllcard.kr/images/biz2/step/step_qualification_check_active.svg);}
+.step-list .step.step-active .step-icon.step_user_commitment {background-image: url(https://www.lllcard.kr/images/biz2/step/step_user_commitment_active.svg);}
 
 
 hr{margin:40px 0;border:0;border-bottom:1px solid var(--bd-color)}
@@ -870,7 +870,7 @@ ul.bullet-list li.bullet-none{text-indent: -19px; margin-top: 12px !important;}
 ul.bullet-list li.bullet-none.mr-0{margin-top: 12px !important}
 ul.bullet-list li.bullet-none::before {display: none;}
 .col-red.bullet::before {background-color: var(--red);}
-.bullet.error::before { content: ""; display: inline-block; width: 16px; height: 17px; margin: 0 2.5px 0 0; background: url(../../images/biz2/ico/ico_error.svg) no-repeat left center/16px 17px; vertical-align: middle;}
+.bullet.error::before { content: ""; display: inline-block; width: 16px; height: 17px; margin: 0 2.5px 0 0; background: url(https://www.lllcard.kr/images/biz2/ico/ico_error.svg) no-repeat left center/16px 17px; vertical-align: middle;}
 ul.bullet-list.add-notice {font-size: 18px; margin-top: 30px;}
 ul.add-notice li+li{margin-top:8px}
 p.bullet.col-blue::before,
@@ -910,8 +910,8 @@ ul.asterisk-list li+li{margin-top:8px}
 /* .complete-area{margin-top:80px} */
 .complete-wrap{font-size:24px; margin: 100px auto 0; text-align:center; }
 .complete-wrap.complete-cont {margin: 0 auto;}
-.complete-wrap::before{content:"";display:block;width: 100px; height:100px; margin: 0 auto 20px; background:url(../../images/biz2/ico/ico_complete_check.svg) no-repeat center / cover}
-.complete-wrap.not-check::before{background-image:url(../../images/biz2/ico/ico_complete_not_check.svg)}
+.complete-wrap::before{content:"";display:block;width: 100px; height:100px; margin: 0 auto 20px; background:url(https://www.lllcard.kr/images/biz2/ico/ico_complete_check.svg) no-repeat center / cover}
+.complete-wrap.not-check::before{background-image:url(https://www.lllcard.kr/images/biz2/ico/ico_complete_not_check.svg)}
 .complete-wrap strong{font-size:32px;}
 .complete-wrap strong > strong {font-size:32px; font-weight: 700;}
 .complete-wrap .msg,
@@ -997,13 +997,13 @@ table .total td{background-color:#E9F9FA}
 .usage-guide .new{height:36px;margin-left:16px;padding:6px 12px;border:2px solid #EA292E;border-radius:8px;font-size:16px}
 .usage-guide td .category-label {margin-left: 8px;}
 
-.com-view-table .ico.homepage {background-image :url(../../images/biz2/ico/ico_homepage.svg)}
+.com-view-table .ico.homepage {background-image :url(https://www.lllcard.kr/images/biz2/ico/ico_homepage.svg)}
 
-.ico.map{background-image :url(../../images/biz2/ico/ico_map.svg); background-size: contain;}
+.ico.map{background-image :url(https://www.lllcard.kr/images/biz2/ico/ico_map.svg); background-size: contain;}
 /* 기관 연계 사업 아이콘 공통 */
-.ico.organ01 {background-image :url(../../images/biz2/ico/ico_organ01.svg)}
-.ico.organ02 {background-image :url(../../images/biz2/ico/ico_organ02.svg)}
-.ico.organ03 {background-image :url(../../images/biz2/ico/ico_organ03.svg)}
+.ico.organ01 {background-image :url(https://www.lllcard.kr/images/biz2/ico/ico_organ01.svg)}
+.ico.organ02 {background-image :url(https://www.lllcard.kr/images/biz2/ico/ico_organ02.svg)}
+.ico.organ03 {background-image :url(https://www.lllcard.kr/images/biz2/ico/ico_organ03.svg)}
 
 /* ILP_024 이용권 사용기관 신청 > 사용기관 정보보안 서약서 팝업 */
 .layer-pop .layer-document .layer-agree-box > ul > li{padding-left:16px;text-indent:-16px; }
@@ -1045,8 +1045,8 @@ table .total td{background-color:#E9F9FA}
 /* LMP_001 지자체 메인 layer apply */
 .layer-apply-content .layer-btn-wrap{margin-top:20px}
 .layer-apply{display:flex; flex-direction:column; align-items:center;}
-.layer-apply-yes .ico::before{width:120px;height:120px;background:url(../../images/biz2/img/img_apply01.png) no-repeat center}
-.layer-apply-no .ico::before{width:120px;height:120px;background:url(../../images/biz2/img/img_apply02.png) no-repeat center}
+.layer-apply-yes .ico::before{width:120px;height:120px;background:url(https://www.lllcard.kr/images/biz2/img/img_apply01.png) no-repeat center}
+.layer-apply-no .ico::before{width:120px;height:120px;background:url(https://www.lllcard.kr/images/biz2/img/img_apply02.png) no-repeat center}
 .layer-apply .desc{margin-top:20px;font-size:20px;text-align:center;width:100%; font-weight: 700;}
 
 .layer-pop p {font-size: 18px;}
@@ -1252,7 +1252,7 @@ table .total td{background-color:#E9F9FA}
 .new-window-pop .new-window-content{overflow:hidden;max-width:var(--max-width, 840px);width:100%}
 .new-window-pop .new-window-scroll{overflow-y:auto;position:relative;padding: 60px 40px 40px 40px; background:#fff;border-radius:20px}
 .new-window-pop .info-area{margin-top:30px}
-.new-window-pop .new-window-scroll .close-btn{position:absolute;right:20px;height:18px;width:24px;height:24px;background:url(../../images/biz2/ic_pop_close.svg) no-repeat center center}
+.new-window-pop .new-window-scroll .close-btn{position:absolute;right:20px;height:18px;width:24px;height:24px;background:url(https://www.lllcard.kr/images/biz2/ic_pop_close.svg) no-repeat center center}
 .new-window-pop .search-box{margin:0;padding:20px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
 
 /* 탭 공통 */
@@ -1282,7 +1282,7 @@ table .total td{background-color:#E9F9FA}
 .cs-center .com-write-table table td.add-file .attached-file{color:#000;}
 .cs-center .com-write-table .btn-download{background-color:var(--blue) !important;}
 .cs-center .com-write-table .article-list li{border-left:1px solid var(--bd-color);border-right:1px solid var(--bd-color);border-bottom-color:var(--bd-color); font-size: 18px;}
-.cs-center .com-write-table .article-list li span.ico::before{width:20px;height:20px;margin:-3px 3px 0 0;background:url(../../images/biz2/ico/ico_list_dis.svg) no-repeat center}
+.cs-center .com-write-table .article-list li span.ico::before{width:20px;height:20px;margin:-3px 3px 0 0;background:url(https://www.lllcard.kr/images/biz2/ico/ico_list_dis.svg) no-repeat center}
 .cs-center .com-write-table .article-list li .ico::after{width:1px;height:8px;margin:0 16px;background-color:var(--bd-color);}
 /* LNP_202 자주하는질문 상세 */
 .qna .conts-header{margin-bottom:16px;}
@@ -1298,7 +1298,7 @@ table .total td{background-color:#E9F9FA}
 .objection .asterisk-list .ico.blank{display:inline-block;width:22px;height:22px;margin-right:8px;border:1px solid var(--bd-color);border-radius:4px;text-indent:-999px;vertical-align:middle;}
 .objection table.basic-info + table.basic-info{margin-top:20px;}
 .objection table.basic-info td.input-group.space .flex-ac{flex-wrap:wrap;}
-.objection table.basic-info input[type=date]{width:532px;height: 56px;padding: 0 16px;background:#fff url(../../images/biz2/ico/ico_calendar.svg) no-repeat right 12px center;border: 1px solid var(--bd-color);border-radius:0;font-size: inherit;}
+.objection table.basic-info input[type=date]{width:532px;height: 56px;padding: 0 16px;background:#fff url(https://www.lllcard.kr/images/biz2/ico/ico_calendar.svg) no-repeat right 12px center;border: 1px solid var(--bd-color);border-radius:0;font-size: inherit;}
 .objection table.basic-info input[type=date]::-webkit-datetime-edit-text{-webkit-appearance:none;display:none;}
 .objection table.basic-info input[type=date]::-webkit-datetime-edit-month-field{-webkit-appearance:none;display:none;}
 .objection table.basic-info input[type=date]::-webkit-datetime-edit-day-field {-webkit-appearance: none;display:none;}
@@ -1324,7 +1324,7 @@ table .total td{background-color:#E9F9FA}
 .com-write-table + .info-box{margin-top:80px;}
 .info-box{padding:40px;background-color: var(--bg-color);border:1px solid var(--bd-color);border-radius:20px;}
 .info-box .title{font-size:22px;color:var(--text-primary-00);}
-.info-box .title::before{content:'';display:inline-block;width:24px;height:24px;margin:-2px 8px 0 0;background:transparent url(../../images/biz2/ico/ico_info.svg) no-repeat 50%;vertical-align:middle;}
+.info-box .title::before{content:'';display:inline-block;width:24px;height:24px;margin:-2px 8px 0 0;background:transparent url(https://www.lllcard.kr/images/biz2/ico/ico_info.svg) no-repeat 50%;vertical-align:middle;}
 .info-box .bullet-list{margin-top:12px;font-size:20px;color:#000;}
 .info-box .bullet-list > li + li{margin-top:4px;}
 /* LLIP_001 개인정보 수정 */
@@ -1336,7 +1336,7 @@ table .total td{background-color:#E9F9FA}
 .cs-center .edit-area .asterisk{margin-top:0;margin-bottom:10px;font-size:16px;}
 .cs-center .basic-info .edit-area .edit-box{min-height:160px;}
 /* LNP_303 질의응답 */
-.qna .conts-header h3.ico.a-ico::before{background-image:url(../../images/biz2/ico/ico_answer.svg);}
+.qna .conts-header h3.ico.a-ico::before{background-image:url(https://www.lllcard.kr/images/biz2/ico/ico_answer.svg);}
 .qna .add-file .attached-file.file-name-area .ico-pdf.pl-0{padding-left:0;}
 /* LIP_400 이용자 이벤트 */
 .user-event-box {overflow: hidden; border-radius: 12px; margin-top: 40px;}
@@ -1475,22 +1475,22 @@ table .total td{background-color:#E9F9FA}
 .button-layer .flex-col + .flex-col {margin-top: 20px;}
 .button-layer .flex-col h3 {font-size: 20px; padding-bottom: 8px; margin-bottom: 8px; border-bottom: 1px solid var(--bd-color);}
 .button-layer .flex-col p.bullet {font-size: 18px;}
-.button-layer .button-layer-close {width: 24px; height: 24px; background: url(../../images/biz2/ico/ico_pop_close.svg) no-repeat center / cover; position: absolute; right: 12px; top: 12px;}
+.button-layer .button-layer-close {width: 24px; height: 24px; background: url(https://www.lllcard.kr/images/biz2/ico/ico_pop_close.svg) no-repeat center / cover; position: absolute; right: 12px; top: 12px;}
 
 
 .info-inner-conts.arrow-down {
 	padding-bottom: 100px;
-	background: url(../../images/biz2/ico/ico_arrow_down_80.svg) no-repeat center bottom / 80px auto;
+	background: url(https://www.lllcard.kr/images/biz2/ico/ico_arrow_down_80.svg) no-repeat center bottom / 80px auto;
 }
 .info-inner-conts h3,
 .info-inner-conts .info-tit { font-size: var(--font-lv2); word-break: keep-all;}
 .info-inner-conts h4 { font-size: 26px}
 .info-inner-conts h4.warning { 
 	padding-left: 32px;	
-	background: url(../../images/biz2/ico/ico_warning.svg) no-repeat left center / 24px;
+	background: url(https://www.lllcard.kr/images/biz2/ico/ico_warning.svg) no-repeat left center / 24px;
 }
 .ico-warning-blue {
-	background: url(../../images/biz2/ico/ico_warning_blue.svg) no-repeat left center / 24px;
+	background: url(https://www.lllcard.kr/images/biz2/ico/ico_warning_blue.svg) no-repeat left center / 24px;
 }
 .ico-warning-blue::before {background: 0; margin-left: 12px; margin: 0 12px;}
 .info-inner-conts .info-box h4 { margin-bottom: 20px;}
@@ -1567,18 +1567,18 @@ table .total td{background-color:#E9F9FA}
 }
 .info-inner-conts .use-step li.step-active span.step-img { background-color: var(--pri);}
 .info-inner-conts .use-step li.step-next span.step-img { background-color: #EEE; border: 0;}
-.info-inner-conts .reg-step li.step1 span.step-img {background-image: url(../../images/biz2/step/step_terms_agreement.svg);}
-.info-inner-conts .reg-step li.step2 span.step-img {background-image: url(../../images/biz2/step/step_identity_verification.svg);}
-.info-inner-conts .reg-step li.step3 span.step-img {background-image: url(../../images/biz2/step/step_application_form.svg);}
-.info-inner-conts .reg-step li.step4 span.step-img {background-image: url(../../images/biz2/step/step_manager_registration.svg);}
-.info-inner-conts .reg-step li.step5 span.step-img {background-image: url(../../images/biz2/step/step_attachment.svg);}
-.info-inner-conts .reg-step li.step6 span.step-img {background-image: url(../../images/biz2/step/step_completion.svg);}
+.info-inner-conts .reg-step li.step1 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_terms_agreement.svg);}
+.info-inner-conts .reg-step li.step2 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_identity_verification.svg);}
+.info-inner-conts .reg-step li.step3 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_application_form.svg);}
+.info-inner-conts .reg-step li.step4 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_manager_registration.svg);}
+.info-inner-conts .reg-step li.step5 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_attachment.svg);}
+.info-inner-conts .reg-step li.step6 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_completion.svg);}
 
-.info-inner-conts .use-step li.step1 span.step-img {background-image: url(../../images/biz2/step/step_terms_agreement.svg);}
-.info-inner-conts .use-step li.step2 span.step-img {background-image: url(../../images/biz2/step/step_identity_verification_active.svg);}
-.info-inner-conts .use-step li.step3 span.step-img {background-image: url(../../images/biz2/step/step_application_form.svg);}
-.info-inner-conts .use-step li.step4 span.step-img {background-image: url(../../images/biz2/step/step_user_commitment.svg);}
-.info-inner-conts .use-step li.step5 span.step-img {background-image: url(../../images/biz2/step/step_completion.svg);}
+.info-inner-conts .use-step li.step1 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_terms_agreement.svg);}
+.info-inner-conts .use-step li.step2 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_identity_verification_active.svg);}
+.info-inner-conts .use-step li.step3 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_application_form.svg);}
+.info-inner-conts .use-step li.step4 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_user_commitment.svg);}
+.info-inner-conts .use-step li.step5 span.step-img {background-image: url(https://www.lllcard.kr/images/biz2/step/step_completion.svg);}
 .info-inner-conts .reg-step li .step-num,
 .info-inner-conts .reg-step li .step-tit,
 .info-inner-conts .use-step li .step-num,
@@ -1600,14 +1600,14 @@ table .total td{background-color:#E9F9FA}
 	gap: 10px;
 	padding-left: 168px;
 	min-height: 128px;
-	background: url(../../images/biz2/img/img_use_rule01.png) no-repeat left center/128px auto;
+	background: url(https://www.lllcard.kr/images/biz2/img/img_use_rule01.png) no-repeat left center/128px auto;
 	font-size: var(--font-lv4) !important;
 }
-.info-inner-conts .use-rule-list li.use-rule01 { background: url(../../images/biz2/img/img_use_rule01.png) no-repeat left center/128px auto; }
-.info-inner-conts .use-rule-list li.use-rule02 { background: url(../../images/biz2/img/img_use_rule02.png) no-repeat left center/128px auto; }
-.info-inner-conts .use-rule-list li.use-rule03 { background: url(../../images/biz2/img/img_use_rule03.png) no-repeat left center/128px auto; }
-.info-inner-conts .use-rule-list li.use-rule04 { background: url(../../images/biz2/img/img_use_rule04.png) no-repeat left center/128px auto; }
-.info-inner-conts .use-rule-list li.use-rule05 { background: url(../../images/biz2/img/img_use_rule05.png) no-repeat left center/128px auto; }
+.info-inner-conts .use-rule-list li.use-rule01 { background: url(https://www.lllcard.kr/images/biz2/img/img_use_rule01.png) no-repeat left center/128px auto; }
+.info-inner-conts .use-rule-list li.use-rule02 { background: url(https://www.lllcard.kr/images/biz2/img/img_use_rule02.png) no-repeat left center/128px auto; }
+.info-inner-conts .use-rule-list li.use-rule03 { background: url(https://www.lllcard.kr/images/biz2/img/img_use_rule03.png) no-repeat left center/128px auto; }
+.info-inner-conts .use-rule-list li.use-rule04 { background: url(https://www.lllcard.kr/images/biz2/img/img_use_rule04.png) no-repeat left center/128px auto; }
+.info-inner-conts .use-rule-list li.use-rule05 { background: url(https://www.lllcard.kr/images/biz2/img/img_use_rule05.png) no-repeat left center/128px auto; }
 .info-inner-conts .use-rule-list li span {
 	display: block;
 	margin-bottom: 0;
@@ -1784,9 +1784,9 @@ table .total td{background-color:#E9F9FA}
 .portalNat .main-info-left .main-info-wrap {width: 100%; gap: 22px;}
 
 /* 평생교육 이용권이란? */
-.portalNat .main-info-explain {position: relative; width: 280px; height: 580px; background: #fff url(../../images/biz2/img/img_info_link.png) no-repeat center; border-radius: 15px; padding: 30px; font-size: 38px; font-weight: 700; background-position: bottom;}
+.portalNat .main-info-explain {position: relative; width: 280px; height: 580px; background: #fff url(https://www.lllcard.kr/images/biz2/img/img_info_link.png) no-repeat center; border-radius: 15px; padding: 30px; font-size: 38px; font-weight: 700; background-position: bottom;}
 .portalNat .main-info-explain .ico {position: absolute; bottom: 30px; right: 30px;}
-.portalNat .main-info-explain .ico::before {width: 100px; height: 100px; background: url(../../images/biz2/ico/ico_infolink.svg) no-repeat center; background-size: cover;}
+.portalNat .main-info-explain .ico::before {width: 100px; height: 100px; background: url(https://www.lllcard.kr/images/biz2/ico/ico_infolink.svg) no-repeat center; background-size: cover;}
 
 /* 포탈 공지사항 스와이퍼 */
 .portalNat .main-info-right .main-notice-detail {margin-top: 0; background-color: var(--white); border-radius: 15px; padding: 30px 20px; position: relative; height: 280px; width: 100%;}
@@ -1909,7 +1909,7 @@ table .total td{background-color:#E9F9FA}
 	padding: 0 41px 0 16px;
 	white-space: nowrap;
 	border: 0;
-	background: #fff url(../../images/biz2/ico/ico_arrow_down.svg) no-repeat right 16px center;
+	background: #fff url(https://www.lllcard.kr/images/biz2/ico/ico_arrow_down.svg) no-repeat right 16px center;
 	border: 1px solid var(--bd-color);
 	transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -1920,7 +1920,7 @@ table .total td{background-color:#E9F9FA}
 	cursor: pointer;
 }
 .ui-select.open {
-	background-image: url(../../images/biz2/ico/ico_arrow_up.svg);
+	background-image: url(https://www.lllcard.kr/images/biz2/ico/ico_arrow_up.svg);
 }
 .ui-select .current {
 	display: inline-block; vertical-align: middle;
@@ -2057,8 +2057,8 @@ table .total td{background-color:#E9F9FA}
 
 
 /* 사용기관 연수 임시 (요청) */
-.bad {background: url('../../images/biz2/ico/ico_quiz_bad.png') no-repeat;}
-.good {background: url('../../images/biz2/ico/ico_quiz_good.png') no-repeat;}
+.bad {background: url('https://www.lllcard.kr/images/biz2/ico/ico_quiz_bad.png') no-repeat;}
+.good {background: url('https://www.lllcard.kr/images/biz2/ico/ico_quiz_good.png') no-repeat;}
 
 /* 팝업 팝업 */
 .layer-pop { display: none; position: fixed; left: 0; top: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); z-index: 1000;}
@@ -2068,8 +2068,8 @@ table .total td{background-color:#E9F9FA}
 .layer-content .layer-scroll > .title { display: block; position: relative; font-size: 26px; text-align: center; font-weight: 700;}
 .layer-content .layer-scroll .desc {font-size: 20px;}
 .layer-content .layer-scroll .desc + .com-view-table {margin-top: 40px;}
-.layer-content .layer-scroll > .title .ic-edu { position: absolute; left: 0; top: 0; width: 176px; height: 34px; background: url(../../images/biz2/ico/ico_pop_edu.png) no-repeat 0 0; }
-.layer-content .layer-scroll .close-btn { position: absolute; right: 20px; top: 18px; width: 24px; height: 24px; background: url(../../images/biz2/ico/ico_pop_close.svg) no-repeat center center; }
+.layer-content .layer-scroll > .title .ic-edu { position: absolute; left: 0; top: 0; width: 176px; height: 34px; background: url(https://www.lllcard.kr/images/biz2/ico/ico_pop_edu.png) no-repeat 0 0; }
+.layer-content .layer-scroll .close-btn { position: absolute; right: 20px; top: 18px; width: 24px; height: 24px; background: url(https://www.lllcard.kr/images/biz2/ico/ico_pop_close.svg) no-repeat center center; }
 /* 팝업 하단 정보 영역 */
 .layer-content .layer-scroll .info-area { margin-top: 40px;}
 
