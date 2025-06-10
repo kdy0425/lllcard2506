@@ -1,0 +1,1047 @@
+/****************************************************
+	�뚯씪紐�	:mo.css
+	理쒖큹�묒꽦��	:�대���
+	理쒖큹�묒꽦��	:2024-11-23
+	-------------------------------------------------
+	Dec. 紐⑤컮�� 誘몃뵒�댁옘由� �뺤쓽
+	-------------------------------------------------
+	�띿꽦�쒖꽌    :�덉씠�꾩썐 > �ш린/媛꾧꺽 > 諛뺤뒪紐⑥뼇 > �고듃/�뺣젹 > 湲고�
+*****************************************************/
+
+@media only screen and (min-width:1080px){
+	.more-link-area > a:hover{transform:translateY(-15px)}
+	.main-info-mo-wrap > .main-info-link:hover{transform:translateY(-15px)}
+
+	.lg-only{display:block}	
+	tr.lg-only{display: table-row;}
+	table.lg-only{display:table}	
+
+	/* 吏��먯껜 �꾩슜 寃��� 以묒븰 �뺣젹 */
+	.search-box .search-list.search-mid {justify-content: center;}
+	.search-box .search-list.search-mid dt {width: auto; padding-left: 0;}
+	.search-box .search-list.search-mid dl {flex: none; width: auto;}
+	.search-box .search-list.search-mid dl + dl {margin-left: 60px;}
+	.search-box .search-list.search-mid .btns {margin: 0; margin-left: 60px;}
+	.search-box .search-list.search-mid dd {padding: 0 0 0 20px;}
+}
+
+/* PC content (min-width) */
+@media screen and (min-width: 1025px) {
+	.footer-show {display: none !important;}
+}
+
+@media only screen and (max-width:1440px){
+	/* �덉씠�꾩썐 怨듯넻 */
+	footer .info-content .link-area{padding-top:20px}
+	footer .info-content .link-area .support-box{position:static;padding-top:20px;border-top:1px solid var(--bd-color);flex-wrap:wrap;row-gap:10px;column-gap:20px}
+
+	/* LMP_001 吏��먯껜 硫붿씤 */
+	.main-tit-group > h2{font-size:38px}
+
+	.more-link-area > a{font-size:23px}
+	.main-info-link.personal{width:33.3333%}
+	.main-info-mo-wrap > .main-info-link{width:50%}
+	.main-counseling-card{padding:16px}
+	.main-counseling-detail > h5{font-size:20px}
+	.main-counseling-detail > .main-counseling-num{font-size:20px}
+}
+
+@media only screen and (max-width: 1280px){
+	/* LGP_001 踰꾪듉 �덉씠�� 怨듯넻 */
+	.tab-cont .button-layer {display: none}
+	.button-layer {position: fixed; transform: translate(-50%, -50%); left: 50%!important; top: 50%!important; right: auto!important; width: calc(100% - 40px); min-height: fit-content;}
+}
+
+@media only screen and (max-width: 1240px){
+	.layer-pop .layer-content {padding: 0 20px;} /* Max-width 1200px Content */
+}
+
+@media only screen and (max-width:1080px){
+	header{height:56px}
+	header .menu-area .open-btn{width:24px;height:24px;background-size:contain}
+	header .menu-area .open-btn ~ .menu-box{display:none}
+	header .multi-logo-area a{display:inline-flex;align-items:center}
+	header .multi-logo-area a:nth-child(1) > img{height:24px;object-fit:cover}
+	header .multi-logo-area a:nth-child(1):after{display:none}
+	header .multi-logo-area a:nth-child(2){padding-left:0}
+	header .multi-logo-area a:nth-child(2) > img{width:90px;height:24px}
+	header .menu-area .log-info{display:none}
+
+	.container{padding:20px 20px 80px} /* (250114 �대��� �섏젙) �섎떒 紐⑤컮�� �щ갚 80px �듭씪  */
+
+	/* �명꽣 怨듯넻 */
+	footer .info-content address > span.txt span + span{margin-left:2px}
+	footer .info-content address > span.tel span + span{margin-left:2px}
+	footer .info-content{padding:20px 0}
+	footer .info-content .link-area .copy{font-size:14px}
+	footer .info-content .link-area .link-box a{font-size:16px}
+	footer .info-content address > span{font-size:16px}
+	footer .info-content .link-area .link-box{flex-wrap:wrap;row-gap:12px;column-gap:24px}
+	footer .info-content .family-select-wrap{position:static;margin-bottom:20px}
+	footer .info-content .family-select-lg > button{width:100%}
+
+	/* �섏씠吏��ㅼ씠�� 怨듯넻 */
+	.conts-footer .paging {margin-top: 40px;}
+	.paging a {width: 32px; height: 32px; font-size: 18px;}
+	.paging .pg > a {width: 28px;}
+	.paging .pg > a::before {background-size: 16px auto;}
+	.paging .pg , .paging .num {gap: 6px;}
+
+	/* �좏떥由ы떚 */
+	.flex-ac{flex-wrap:wrap;width:100%}
+
+	/* �섏씠吏� �쒕ぉ */
+	.page-header-tit{font-size:26px}
+	.page-header-desc{margin-top:12px;text-align:left}
+	.page-header{margin-bottom:40px;}
+	.conts-header-data{font-size:16px;}
+
+	/* PC �꾩슜 �대옒�� */
+	.lg-only{display:none}
+	.lg-only-i{display:none!important}
+	.lg-only-inline {display: none;}
+
+	/* 紐⑤컮�� �꾩슜 �대옒�� */
+	.sm-show-800{display:block !important}
+	.sm-txt-l {text-align: left!important;}
+	.sm-mg-0 {margin: 0;}
+
+	/* Form */
+	input[type=number], 
+	input[type=file], 
+	input[type=date], 
+	input[type=tel], 
+	input[type="text"], 
+	input[type="password"], 
+	input[type="search"], 
+	input[type="email"], 
+	textarea,
+	select, 
+	.ui-select,
+	option{height:40px; padding: 0 8px;}
+	.ui-select .current {line-height: 40px;}
+
+
+	.layer-pop :is(p.bullet, .bullet-list) {font-size: 16px;}
+	select,
+	select ~ .ui-select {
+		min-width: 100%;
+		padding-left: 8px !important;
+		padding-right: 30px !important;
+		background-position: right 8px center;
+	}
+
+	.ui-select .list .option {
+		padding: 0 32px 0px 8px;
+	}
+
+	/* Table */
+	table th {font-size: var(--font-lv6);}
+	tr.sm-show-800{display: table-row !important;}
+	table.sm-show-800{display:table !important}
+	table td,
+	table td .chk-box label, table td .radio-box label {font-size: var(--font-lv6);}
+			
+	.com-write-table table th,
+	.com-write-table table td{height:56px;padding:8px}
+	.com-write-table colgroup col:nth-child(1),
+	.com-write-table colgroup col:nth-child(3){width:114px !important}
+	.com-view-table table th,
+	.com-view-table table td{height:56px;padding:8px!important}
+	.com-write-table + .info-box{margin-top:12px;}
+	.com-write-table colgroup col.sm-col-25 {width:25%!important;}
+
+	/* 硫붿씤 */
+	.main-cont{flex-direction:column}
+	.main-info-left{width:100%}
+	.main-info-right{width:100%;margin-top:16px}
+	.more-link-area{flex-direction:row;flex-wrap:wrap;row-gap:16px;column-gap:16px;justify-content:space-between}
+	.more-link-area > a{width:auto;flex:1 0 calc(50% - 16px);min-height:110px}
+
+	/* �됱깮援먯쑁 �곷떞�쇳꽣 */
+	.main-counseling .main-tit-group{flex-direction:column;align-items:flex-start}
+	.main-counseling .main-search-group{width:100%;margin-top:16px}
+	.main-counseling .main-search-box{width:auto; max-width: 100%;}
+	.main-counseling-content{margin-top:16px}
+	.main-counseling-wrap{flex-direction:column;row-gap:16px}
+
+	p.bullet, .basic-info th .btn-bd, 
+	.basic-info button +.flex-ac,
+	.basic-info .flex-ac +.flex-ac {
+		margin-top: 12px;
+	}
+
+	.layer-pop :where(.com-view-table, .com-write-table) table th, 
+	.new-window-pop :where(.com-view-table, .com-write-table) table th {font-size: 18px;}
+
+	/* 由ъ뒪�� 酉� �ㅽ���(怨듭��ы빆, �먮즺�� ��) */
+	.conts-header {
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 40px;
+		margin-top: 40px;
+		margin-bottom: 12px;
+	}
+	.conts-header h3{font-size:24px}
+	.conts-header.count-col {gap: 12px;}
+	.conts-header.no-gap {gap: 0;}
+	.conts-header .search-areaa { order: 1;}
+	.conts-header .select-view { order: 2 }
+	.conts-header > .btns {order: 3; width: auto;}
+	.conts-header .select-view select ~ .ui-select {
+		min-width: 104px;
+		padding-right: 35px;
+		font-size: 14px;
+		background-position: right 5px center;
+		border-radius: 6px;
+	}
+	.conts-header .search-areaa {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		width: 100%;
+		padding: 12px 10px;
+		font-size: 18px;
+		background-color: var(--bg-color);
+		border-radius: 8px;
+	}
+	.conts-header .search-areaa select ~ .ui-select {
+		width:  100px; height: 40px;
+		width: 100%;
+		border-radius: 6px;
+	}
+	.conts-header .search-areaa .search-input input {
+		width: 100%;
+		border-radius: 6px;
+	}
+	.conts-header .search-areaa .search-input button {
+		width: 24px; height: 24px;
+		margin-right: 8px;
+		padding: 0;
+		background-size: 100% auto;
+	}
+	.conts-footer {
+		flex-direction: column;
+	}
+	.conts-footer .post-data {
+		position: inherit;
+		font-size: var(--font-lv7);
+	}
+	.conts-footer .radio-box {
+		justify-content: end;
+		margin-top: 12px;
+	}
+
+	.asterisk, 
+	.asterisk-list li{padding-left:19px;text-indent:-19px}
+	.objection .agree-box02 .agree-sign,
+	.objection .agree-box02 .agree-sign .sign label, .objection .agree-box02 .asterisk {font-size: 18px;}
+
+
+	.layer-pop .com-write-table .auth-num input {height: 40px!important;}
+	.layer-pop .btns,
+	.new-window-pop .btns {width: auto;}
+	.conts-header .btn-wrap .btns {display: inline-block !important; width: auto;}
+	.btns{width:100%;height:40px;padding:9px 16px 8px;font-size:16px}
+	.btns.w-auto {width: auto;}
+
+
+	.file-up-area .btns.reset {
+		width: auto;
+		margin-top: 10px;
+	}
+
+
+	.step-title + .conts-header, .step-title + div {
+		margin-top: 12px;
+	}
+	.step-title {font-size: 26px;}
+	.step-list{margin-bottom:40px}
+	.step-list.flex-acjc{gap:2%}
+	.step-list .step {
+		width: calc(33.3333% - 48px);
+		flex: 1 1 auto;
+	}
+	.step-list.two-step .step {
+		width: auto;
+		flex: 0;
+	}
+	.step-list .step .step-icon {
+		max-width: 82px; height: 82px;
+		/* max-width: 148px; max-height: 148px; */
+		/* width: 100%; height: 100%; */
+		background-size: 50%;
+		object-fit: cover;
+		/* height: 0; */
+		padding-top: 0;
+	}
+	.step-list .step .step-name{font-size:15px}
+	.step-list .step .step-tit{font-size:18px}
+	.step-list li.step-arrow {
+		width: 24px;
+		margin-top: 7%;
+	}
+	.step-list .step-arrow img {
+		display: block;
+		max-width: 32px;
+	}
+	/* 援щ텇�� 怨듯넻 */
+	hr{margin:40px 0; border-bottom: 2px solid var(--bd-color);}
+
+
+
+
+	.result-chk {margin: 120px auto 80px;}
+	.result-chk > p {font-size: 24px;}
+
+
+	.btns-bottom{max-width:100%;margin-top:40px; gap: 8px;}
+	.btns-bottom a, 
+	.btns-bottom button{height:48px;padding:10px;font-size:20px; padding: 0; line-height: 48px;}
+
+	.input-group .flex-ac > .flex-ac {min-width: auto;}
+	
+	.basic-info .input-group .flex-ac .fixed-value{width:100%; }
+	.basic-info .fixed-value input{flex:1}
+	.basic-info .space .chk-box{margin-left:0}
+	.basic-info .input-num{flex-direction:column;align-items:flex-start;width:100%}
+	.input-num {
+		display: inline-block;
+		margin-top: 0 !important;
+	}
+	.input-num .flex-ac,
+	.input-mail .flex-ac {
+		display: inline-block;
+		margin-top: 10px;
+	}
+	.input-num input {
+		width: 33.3333%;
+	}
+	.basic-info .input-num select ~ .ui-select,
+	.basic-info .input-num select{min-width:45%; width:auto}
+	.basic-info .input-num input {width:40%}
+	.basic-info .input-num input {width:45%}
+	.basic-info .input-num + button {
+		margin-top: 5px;
+	}
+	.tel-num{width:100%}
+	.tel-num input{width:calc(50% - 15px)}
+	.basic-info .input-group .email,
+	.basic-info .input-group .email + select,
+	.basic-info .input-group .email + select ~ .ui-select {min-width: auto; width:calc(50% - 10px); flex: 1}
+	.basic-info .input-group .email-id{width:calc(100% - 26px)}
+	.basic-info input[type=number]{flex:calc(100% - 20px)}
+	ul.asterisk-list{font-size:16px}
+	
+	/* �꾨즺 怨듯넻 */
+	.complete-area{margin-top:0}
+	.complete-wrap{font-size:18px; margin: 120px auto;}
+	.complete-wrap::before{margin-bottom:40px; width: 80px; height: 80px;}
+	.complete-wrap strong{font-size:24px}
+	.complete-wrap.border-box strong {font-size: 20px;}
+	.complete-wrap .mssg{margin-top:26px}
+
+	/* �몄쬆援щ텇 怨듯넻 */	
+	hr+.auth-area{margin-top:40px}
+	.auth-area-in{gap:16px}
+	.auth-area-in button{flex:calc(50% - 8px);height:126px;font-size:16px}
+	.auth-area-in button::before{height:58px;margin-bottom:8px;background-size:100% !important}
+	.auth-area-in button.simple::before{width:90px}
+	.auth-area-in button:not(.simple)::before{width:56px}		
+
+	/* �숈쓽諛뺤뒪 怨듯넻 */
+	.agree-box{padding:20px 16px}
+	.agree-box .agree-tit h5{font-size:20px}
+	.agree-box .agree{gap:12px}
+	.agree-box .agree-radio{flex-wrap:wrap;padding:16px;gap:16px}
+	.agree-box .agree-radio > span{font-size:20px}
+	.agree-box .agree + .agree{padding-top:26px}
+	.asterisk-list .agree-btn{display:block;margin-top:8px;margin-left:-21px}
+	.agree-box > div,
+	.agree-box .agree, 
+	.agree-box .agree-tit, 
+	.agree > div 
+	{ display: flex; flex-direction: column; align-items: flex-start; gap: 16px;}
+	.agree-box .agree-radio {padding-left: 0; padding: 0;}
+	.chk-box label, .radio-box label {font-size: 20px;}
+
+	/* 二쇱냼 怨듯넻 */
+	.address .input-group .flex-ac{flex-wrap:nowrap}
+	.address .input-group .fixed-width{width:calc(100% - 100px)}
+	.address .input-group .btns{width:100px}
+
+	/* LAM_102 �됱깮援먯쑁�댁슜沅� �좎껌 2�④퀎 */
+	.available-tickets{margin-top:12px;border-left:0;border-right:0}
+	.available-tickets > li{flex-direction:column}
+	.available-tickets > li strong:not(.list-label){display:block;width:100%;padding:26px 8px 6px;font-size:18px;text-align:left}
+	.available-tickets > li strong:not(.list-label) br{display:none}
+	.available-tickets .color-darkblue{font-size:16px}
+	.available-tickets > li .disc{width:100%;padding:10px 8px}
+	.available-tickets > li .disc .add-info {font-size: 16px;}
+	.available-tickets > li .disc .price{font-size:18px}
+	.available-tickets > li .disc .bullet-list{font-size:18px}
+	.available-tickets > li .btns{width:120px;margin:20px auto}
+	.available-tickets li.flex {padding-left: 0; text-indent: 0;}
+	.available-tickets > li .disc .price-wrap {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 4px;
+	}
+	.available-tickets > li .disc .bullet-list li.apply-period {
+		align-items: flex-start;
+	}
+	ul.bullet-list.table-label-list li::before {
+		display: none;
+	}
+	/* LAM_103 �됱깮援먯쑁�댁슜沅� �좎껌 3�④퀎 */			
+	.agree-box.learning .radio-box label:not(:last-of-type){margin-right:16px}	
+
+	/* LAM_105 �됱깮援먯쑁�댁슜沅� �좎껌 �꾨즺 */
+	.complete-wrap.border-box{padding:20px 16px; border-radius: 16px;}
+	.complete-wrap.border-box+p{margin-top:12px;font-size:16px}
+	.complete-area+.page-header{margin-top:40px}
+
+	/* LAM_400 �섍린怨듬え �좎껌 */
+	.contest .conts-header .btns{width:auto}
+	.contest .sm-show-800 li{display:flex;align-items:center}
+	.contest .sm-show-800 li+li{margin-top:4px}
+	.contest .sm-show-800 li p{margin-left:6px}
+
+	/* LAM_401 �섍린怨듬え �좎껌 */	
+	.timer{display:block}
+
+	/* LUM_001 �ъ슜泥� �덈궡 */
+	.usage-guide .search-box{margin-top:40px;padding:10px}
+	.usage-guide .search-box .mw-set{max-width:100%}
+	.usage-guide .search-box .search-input .btn-search{top:0px;padding:20px}
+	.usage-guide .flex-ac.mw-set{gap:5px}	
+	.usage-guide .search-box .search-list dl{display:block}	
+	.search-box .search-list .search-chk {padding-bottom: 0;}
+	.search-box .search-list :where(input[type="text"], select){border-radius: 6px;}
+	.search-box .search-list dd select{font-size: var(--font-lv6);}
+
+	.usage-guide .search-box .search-list dt{margin-top:10px;padding-left:0;font-size:18px}
+	.usage-guide .search-box .search-list dt br{display:none}
+	.usage-guide .search-box .search-list dd{padding:5px 0}
+	.usage-guide .search-box .search-list dd select{flex:1}
+	.usage-guide .divide{row-gap:16px;padding:10px 0}
+	.usage-guide .divide .chk-box{width:100%}
+	.usage-guide .search-box .chk-box label{font-size:18px}
+	.usage-guide .asterisk-list{margin-top:12px}
+
+	/* 寃��� �곸뿭 怨듯넻 */
+	.search-box {border-radius: 6px;}
+
+	/* 濡쒖��댁뀡 怨듯넻 */
+	.top-location-area .location-box {padding-left: 4px;}
+	.top-location-area .location-box .arrow {padding-left: 28px; font-weight: 500;}
+	.top-location-area .location-box .arrow + .arrow {margin-left: 4px;}
+
+	/* �� 怨듯넻 */
+	.tab-list{gap:0;font-size:20px;margin-bottom:20px;}
+	.tab-list > li{flex:1;width:auto;height:76px;}
+	.tab-list > li > a{overflow:hidden;display:block;height:100%;padding:8px 20px;border-radius:20px 20px 0 0;border:1px solid var(--bd-color);border-bottom:none;background:var(--bg-color);text-align:center;}
+	.tab-list > li > a > span{display:inline-block;line-height:1.5;vertical-align:super;}
+
+	/* LMP_001 吏�李⑥껜 硫붿씤 諛곌꼍 */
+	.main-cont{padding:0}
+	.main-cont::before{display:none}
+	.main-info-link.personal{padding:9px 16px}
+	.main-info-link.personal .main-info-user{font-size:16px; margin-bottom: 8px;}
+	.main-info-group{margin-top:0}
+	.main-info-tit{line-height:150%;font-size:22px}
+	.main-info-link{height:auto}
+	.main-info-mo-wrap{margin-left:16px}
+	.main-info-mo-wrap{flex-direction:column;gap:16px}
+	.main-info-mo-wrap .main-info-link{width:100%}
+	.main-info-mo-wrap > .main-info-link + .main-info-link{margin-left:0}
+	.main-info-link:not(.personal){ padding:16px; flex: 1;}
+	.main-info-link:not(.personal) > a{ justify-content: center; align-items:flex-start;position:relative}
+	.main-info-link:not(.personal) > a .ico{position:absolute; right:0px;}
+	.main-info-link:not(.personal) > a .ico::before{width:60px; height:60px}
+	.main-info-group{text-align:left}
+	.main-info-link.personal{justify-content:center}
+	.main-info-link.personal .ico.after-login::before{width:88px;height:88px}
+	.main-info-link.personal .ico.before-login::before{width:88px;height:88px}
+	.main-info-link.personal > a{height:auto;padding:8px 7px;font-size:18px;border-radius:4px}
+	.main-info-link.personal > a.login{margin-top:16px}
+
+	/* LMP_001 吏�李⑥껜 硫붿씤 怨듭��ы빆 �ㅼ��댄띁 踰꾪듉 */
+	.main-notice .main-notice-detail .swiper-indicator{display:flex}	
+	.main-info-wrap{position:relative;padding:20px 0}
+	.main-info-wrap::before{content:'';display:block;position:absolute;left:0;top:0;height:100%;width:100vw;margin-left:calc(-50vw + 50%);background:#27C2CB;z-index:-1}
+	.more-link-area > a{ border:1px solid var(--bd-color); padding:16px;font-size:18px;align-items:flex-start;position:relative}
+	.more-link-area > a .ico{position:absolute;right:14px;bottom:14px}
+	.more-link-one{line-height:54px}
+	.main-info-right .more-link-area > a .ico::before{width:40px;height:40px}
+	.more-link-area .more-link-ticket .ico::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_main_link_4_mo.png) no-repeat center;background-size:cover}
+	.more-link-area .more-link-login .ico::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_main_link_5_mo.png) no-repeat center;background-size:cover}
+	.more-link-area .more-link-archive .ico::before{background:url(https://www.lllcard.kr/images/biz2/ico/ico_main_link_7_mo.png) no-repeat center;background-size:cover}
+
+	/* �댁슜�쎄� 洹몃９ */
+	.term-box {font-size: 18px;}
+	.term-box h3 {font-size: 20px;}
+	.term-box p + p {margin-top: 8px;}
+
+	/* �덉씠�� �앹뾽 怨듯넻 */
+	.layer-pop .layer-content .layer-scroll {padding: 48px 16px 32px 16px;}
+	.layer-content .layer-scroll > .title {font-size: 24px;}
+
+	.layer-pop p {font-size: var(--font-lv6);}
+	.layer-pop :is(.chk-box, .radio-box) label {font-size: var(--font-lv6);}
+	.layer-pop :is(.com-view-table, .com-write-table) td p.bullet {font-size: var(--font-lv6)!important;}
+	/* �덉씠�� �대� �숈쓽 諛뺤뒪 怨듯넻 */
+	.layer-pop .layer-agree-box {border-radius: 16px; padding: 20px;}
+	.layer-pop .layer-agree-box .chk-box input[type="text"]{max-width: none; margin-left: 0; margin-top: 10px;}
+	.layer-pop .layer-agree-box.txt-indent-20 .agree-detail :where(ul, h4, ol){padding-left: 0;}
+	.layer-pop .layer-agree-box.txt-indent-20 .agree-detail > ol > li > ul.num-counter > li {padding-left: 20px; text-indent: -20px;}
+
+	/* �덉씠�� �곷떒 怨듯넻 */
+	.layer-pop .conts-header {margin-top: 20px;}
+	.layer-pop .conts-header h3 {font-size: var(--font-lv5);}
+	.layer-pop .conts-header:has(p.bullet) {gap: 12px;}
+
+	/* �덉씠�� �숈쓽 怨듯넻 */
+	.layer-pop :is(.layer-agree-desc, .layer-agree-date, .layer-agree-date, .layer-agree-sign){margin-top: 12px;}
+	.layer-pop .layer-agree-giver {display: block; margin-top: 12px;}
+	.layer-pop .layer-agree-giver strong {font-size: var(--font-lv4)}
+	.layer-pop .layer-agree-giver span {font-size: var(--font-lv5);}
+
+	/* �덉씠�� 踰꾪듉 怨듯넻 */
+	.layer-pop .layer-btn-wrap .btns,
+	.new-window-pop .new-window-btn-wrap .btns{width: 134px; font-size: 18px;}
+	.layer-content .layer-scroll .close-btn {right: 16px; top: 12px;}
+
+	/* �덉씠�� �뚯씠釉� 怨듯넻 */
+	.layer-pop :where(.com-view-table, .com-write-table) th,
+	.new-window-pop :where(.com-view-table, .com-write-table) th {font-size: 18px;}
+	.layer-pop :where(.com-view-table, .com-write-table) td,
+	.new-window-pop :where(.com-view-table, .com-write-table) td {font-size: 18px;}
+
+	/* �덉씠�� �좎껌 �뺣낫 �앹뾽 怨듯넻 */
+	.layer-pop [class*=layer-apply] .ico::before {width: 100px; height: 100px; background-size: cover;}
+
+	/* �덉씠�� �곷떒 濡쒓퀬 怨듯넻 */
+	.layer-top-logo {left: 16px; width: 92px; height: 16px;}
+
+	/* LMP_001 吏�李⑥껜 �됱깮援먯쑁 �곷떞�쇳꽣 */
+	.main-search-box > input::placeholder{ color:transparent}
+	.main-search-box{padding:12px 10px;gap:10px; border-radius: 6px;}
+	.main-search-group .main-search-box :where(select, input, button){height:40px; font-weight: 500;}
+	.main-search-box > select ~ .ui-select,
+	.main-search-box > select{min-width:0;width:76px; height: 40px; font-size:18px;padding:0 32px 0px 8px;background-position:right 8px center} 
+	.main-search-box > select ~ .ui-select .current {line-height: 40px;}
+	.main-search-box button{width:50px;font-weight:500;font-size:18px;border-radius:6px}
+	.main-counseling{padding:       60px 0 16px 0}
+	.main-counseling-card{padding:16px 16px 14px 16px; align-items:flex-start; width:100%; position:relative; border-radius: 16px;max-width: 100%;}
+	.main-counseling-ico{ position:absolute; right:16px; top:16px}
+	.main-counseling-card > .card-wrap{flex-direction:column;gap:8px;align-items:flex-start;max-height:none}
+	.main-counseling-card .main-counseling-label{font-size:18px;height:auto;padding:8px 12px}
+	.main-counseling-ico > a{width:40px;height:40px}
+	.main-counseling-ico > a.ico.counceling-link::before{width:40px;height:40px;background-size:17px 17px}
+	.main-counseling-ico > a.ico.call-link::before{display:block}
+	.main-counseling .main-tit-group{padding:0}
+	
+	/* LMP_001 吏�李⑥껜 硫붿씤 怨듭��ы빆 */
+	.main-notice{padding:0}
+	.main-notice-detail ul > li > a{padding:16px 16px 58px 16px}
+	.main-notice-detail .main-notice-tit{font-size:18px}
+	.main-tit-group > h2{font-size:26px}
+	.main-info-left{gap:40px}
+	.main-info-link.personal{flex:1;width:auto}
+	.main-info-mo-wrap{flex:auto}
+
+	/* LGP_001 �됱깮援먯쑁�댁슜沅뚯씠��? */
+	.ticket.flex-ac{justify-content:center;gap:40px;}
+	.ticket img{width:auto;min-width:320px;min-height:320px;max-width:440px;max-height:440px;}
+	.ticket.flex-ac .sm-show-800{width:100%;}
+	.ticket .ticket-desc{width:100%;flex-direction:column;}
+	.ticket .ticket-desc > dl[class^="list"]{width:100%;padding:16px;background-color:#F7F9FC;font-size:18px;text-align:left;}
+	.ticket .ticket-desc dl+dl{margin-top:16px;padding-left:0;}
+	.ticket .ticket-desc dl dt,
+	.ticket .ticket-desc dl dd{justify-content:left;border-radius:0;}
+	.ticket .ticket-desc dl dt{min-height:36px;margin-bottom:10px;padding:0;background-color:transparent;font-size:24px;font-weight:700;}
+	.ticket .ticket-desc dl dd{min-height:auto;margin-top:0;padding:0 0 0 10px;background-color:transparent;color:#333}	
+	.ticket .ticket-desc dl dd:before{content:'';display:inline-block;width:4px;height:4px;margin-right:10px;border-radius:50%;background-color:#333;}
+	
+	/* LNP_001 怨듭��ы빆 */
+	.cs-center .search-input{margin-left:10px;}
+	.cs-center .search-area{padding:12px 10px;border-radius:6px;}
+	.cs-center .search-area .ui-select,
+	.search-area input[type="text"]{border-radius:6px;}
+	.search-area .ui-select {width: auto;} /* pc ver. 200px �쒓굅 */
+	.cs-center .search-area .search-input .btn-search{top:50%;background-size:24px;transform:translateY(-50%);}
+	.table-list{border-top:3px solid var(--bd-color);font-size:18px}
+	.table-list > ul > li > p:has([class*=organ]),
+	.table-list > ul > li > p:has([class*=map], .category-label) {display: flex; align-items: center;}
+	.table-list > ul > li > p:has([class*=map], .category-label) {gap: 10px;}
+	.table-list > ul > li > p:has([class*=map], .category-label) .category-label {margin: 0;}
+	.table-list > ul > li [class*=organ].ico + span {margin-left: 6px;}
+
+	/* LTP_002 媛쒖씤�뺣낫 泥섎━ 諛⑹묠 */
+	.privacy .privacy-guide-group {flex-direction: column;}
+	.privacy .privacy-guide-tit {min-height: 52px;}
+	.privacy .privacy-guide-group .privacy-guide-card:not(:nth-child(1)){border-left: 1px solid var(--bd-color)}
+	.privacy .privacy-guide-info {display: none;}
+	.privacy .privacy-guide-card:last-child {border-bottom: 1px solid var(--bd-color);}
+	.privacy img.privacy-img {margin: 20px auto 10px;}
+	.privacy .info-box p {font-size: 18px;}
+	.privacy p.bullet, .privacy ul.bullet-list {font-size: 18px!important;}
+	.privacy .table-list li p {margin-left: 0; margin-top: 0; text-indent: 0;}
+	.privacy .term-box p.indent-depth-1 {padding-left: 20px;}
+	.privacy .term-box p.indent-depth-2 {padding-left: 40px;}
+	.privacy .privacy-link-group p.bullet {text-indent: -20px;}
+
+	/* 媛쒖씤�뺣낫 泥섎━ 諛⑹묠 > 紐⑹감 */
+	.index .conts-header {justify-content: flex-start;}
+	.index .info-box {flex-direction: column;}
+	.index .info-box > ul + ul {margin-top: 20px;}
+
+	.cs-center .table-list ul li{display:flex;align-items:center;margin-top:4px}
+	.cs-center .table-list ul li strong+img{margin-left:10px}
+	.cs-center .table-list ul li .new{margin-left:10px}
+	.table-list ul li,
+	.contest .sm-show-800 ul li, .cs-center .table-list ul li,
+	.contest .sm-show-800 ul li div, .cs-center .table-list ul li div {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 4px;
+		margin-top: 4px;
+		padding: 20px 8px; 
+		border-bottom:1px solid var(--bd-color);
+	}
+	.contest .sm-show-800 ul li div, .cs-center .table-list ul li div {
+		padding: 0;
+		border-bottom: 0;
+	}
+	.contest .table-list ul li p strong.list-label::after,
+	.cs-center .table-list ul li p strong.list-label::after,
+	p strong.list-label::after {
+		content: ":";
+		display: inline-block;
+		margin: 0 6px;
+	}
+	.cs-center p strong.list-label::after,
+	.cs-center:not(.online-cs) p strong {
+		font-weight: 500;
+	}
+	.cs-center p strong.list-title {font-weight: 700;}
+	.contest .table-list ul li p span.list-bold,
+	.cs-center .table-list ul li p span.list-bold { font-weight: 700; }
+	.contest .table-list ul li p span.list-point,
+	.cs-center .table-list ul li p span.list-point { color: #0CA2FF; }
+	.contest .sm-show-800 ul li.sm-select-list, .cs-center .table-list ul li.sm-select-list {
+		flex-direction: row;
+		align-items: center;
+	}
+	.contest .sm-show-800 ul li.sm-select-list, .cs-center .table-list ul li.sm-select-list p.select-ip {
+		margin: 0 12px;
+	}
+	/* LNP_001 怨듭��ы빆 �곸꽭 */
+	.cs-center .com-write-table table{border-left:none;border-right:none;}
+	.cs-center .com-write-table table tr th:first-child, 
+	.cs-center .com-write-table table tr td:not(.cont-area):first-child{border-left:1px solid var(--bd-color);}
+	.cs-center .com-write-table table tr td:not(.cont-area):last-child{border-right:1px solid var(--bd-color);}
+	.cs-center .com-write-table table td.cont-area dt{display:none;}
+	.cs-center .com-write-table table td .attached-file{height:56px;line-height:56px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;font-size:16px;color:#000;}
+	.cs-center .com-write-table table td .attached-file .ico-pdf{padding-left:16px;margin-right:4px;vertical-align:middle;}
+	.btn-download,
+	.cs-center .com-write-table .btn-download{width:40px;min-width:40px;height:56px;background-color:transparent !important;}
+	.btn-download > span,
+	.cs-center .com-write-table .btn-download > span{display:block;overflow:hidden;font-size:0;line-height:0;position:absolute;text-indent:-9999px;width:1px;height:1px;}
+	.btn-download::after,
+	.cs-center .com-write-table .btn-download::after{
+		content: ""; width: 24px; height: 24px; display: block;
+		margin-left:0; margin-right:8px;
+		background:url(https://www.lllcard.kr/images/biz2/ico/ico_download_black.svg) no-repeat center/cover }
+	.cs-center .com-write-table .article-list li{height:48px;line-height:48px;padding:0 0 0 16px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;}
+	.cs-center .conts-header .right-wrap.flex-ac{width:calc(100% - 100px);justify-content:flex-end;}
+	.cs-center .conts-header .right-wrap.flex-ac .btns{width:auto;min-width:49px;height:36px;font-size:14px;font-weight:500;}
+	.cs-center .conts-header .btns.w-auto{width:auto;min-width:100px;}	
+	.cs-center .conts-header .btns.w-auto{width:auto;min-width:100px;}
+	.cs-center .com-view-table+.asterisk{font-size:16px;}
+	.cs-center .table-list.class-list ul li{align-items:baseline;}
+	.cs-center .table-list.class-list ul li > strong{white-space:nowrap;}
+	
+	/* LNP_202 �먯＜�섎뒗吏덈Ц �곸꽭 */
+	.qna .conts-header{margin-bottom:20px;}
+	.qna .conts-header h3.ico::before{width:36px;height:36px;margin-right:10px;background-size:cover;}
+	.qna .qna-answer.ico::before{background-size:cover;width:36px;height:36px;margin-right:16px}
+	.qna .conts-header > span{font-size:14px;}
+	.qna .qna-table table{border:none;}
+	.qna .qna-table table thead{display:block;border-radius:20px;border:1px solid var(--bd-color);background:var(--bg-color);}
+	.qna .qna-table table thead th{padding:16px;background:none;border:none;}
+	.qna .qna-table table tbody{position:relative;display:block;margin-top:97px;border:1px solid var(--bd-color);border-radius:20px;}
+	.qna .qna-table table tbody .ico.qna-answer{position:absolute;top:-58px;left:0;font-size:24px;color:var(--text-primary-00);font-weight:700;}
+	.qna .qna-table table tbody .ico.qna-answer::before{margin-right:10px;}
+	.qna .qna-answer-details{margin:0 16px 0 16px;padding:24px 0 12px 0;}
+	.qna-table tbody tr:last-of-type td{padding:4px 24px 32px 24px;border:none;}
+	.qna .qna-table table td.qna-attach .qna-attached{display:inline-block;padding-left:8px;}
+	.qna .qna-table table td.qna-attach .add-file{display:inline-flex;width:calc(100% - 83px);}
+	.qna .qna-table table td.qna-attach .attached-file{height:56px;line-height:56px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;font-size:16px;color:#000;}
+	.qna .qna-table table td.qna-attach .attached-file .ico-pdf{padding-left:16px;margin-right:4px;vertical-align:middle;}
+	.qna .qna-table table .btn-download{width:40px;min-width:40px;height:56px;margin:0;padding-top:0;background-color:transparent !important;}
+	.qna .qna-table table .btn-download > span{display:block;overflow:hidden;font-size:0;line-height:0;position:absolute;text-indent:-9999px;width:1px;height:1px;}
+	.qna .qna-table table .btn-download::after{
+		content:'';display:inline-block; margin-left:0;margin-right:0;background-image:url(https://www.lllcard.kr/images/biz2/ico/ico_download_black.svg); width: 24px; height: 24px;}
+
+	/* LAP_201 �댁쓽�쒓린 �좎껌 */
+	.objection table.basic-info input[type=date]{width:100%;height:40px;}
+	.objection table.basic-info .filebox.flex-ac, 
+	.file-up-area .filebox.flex-ac{position:relative;}
+	.objection table.basic-info .filebox.flex-ac .upload-name, 
+	.file-up-area .filebox.flex-ac .upload-name{min-width:auto;max-width:unset;width:100%;height:40px;}
+	.objection table.basic-info .filebox.flex-ac label.btns, 
+	.file-up-area .filebox.flex-ac label.btns{ position:absolute; top:50%; right:8px; min-width:24px; width:24px; height:24px; background: #fff url(https://www.lllcard.kr/images/biz2/ico/ico_file_up_mo.svg) no-repeat center!important;  text-indent: -999px; transform:translateY(-50%); }
+	.objection table.basic-info td button.file-reset.btns{min-width:61px;width:auto;height:36px;padding:9px 12px 8px;font-size:14px;border-radius:4px;}
+	
+	/* LAP_201 �좎젙 �ш린 �좎껌 */
+	.objection .com-write-table .basic-info td .row-gap{gap:10px;margin:0;}
+	.objection .agree-box02 .agree-sign,
+	.objection .agree-box02 .agree-sign .sign label 
+	 {font-size: 18px;}
+
+	.info-box{padding:16px;border:none;border-radius:16px;}
+	.info-box .title{font-size:21px;}
+	.info-box .title::before{margin:-2px 8px 0 0;vertical-align:middle;}
+	.info-box .bullet-list{margin-top:12px;font-size:18px;color:var(--text-primary-00);}
+	.info-box .bullet-list > li + li{margin-top:1px;}
+
+	.call-box .gap-8 {gap: 0;}
+
+	/* LIP_001 媛쒖씤�뺣낫 �섏젙 */
+	.user-info-up .asterisk{font-size:16px;}
+	.user-info-up .agree-box.learning{padding:0;border:none;border-radius:0;}
+	.user-info-up .agree-box.learning .chk-cont{padding:16px;border:1px solid var(--bd-color);background-color:var(--bg-color);border-radius:16px;}
+	.user-info-up .agree-box.learning .chk-cont .agree-tit{font-weight:500;}
+	.user-info-up .agree-box.learning .chk-cont .agree-radio{padding-left:0;padding-bottom:0;padding-top:0;}
+	.user-info-up .agree-box.learning .bullet-list{margin-top:10px;font-size:16px;}
+	.user-info-up .agree-box.learning .bullet-list li{padding-left:0;text-indent:0;}
+	.user-info-up .agree-box.learning .bullet-list li::before{content:'�� ';width:auto;height:auto;background-color:transparent;margin:0 1px 0 0;}
+	.user-info-up .agree-box.learning .bullet-list .link{color:#000;font-weight:500;}
+	.user-info-up .agree-box.learning .bullet-list .link::before{content:'(';display:inline-block;margin-right:1px;}
+	.user-info-up .agree-box.learning .bullet-list .link::after{content:')';display:inline-block;margin-left:2px;}
+
+	/* LNP_303 吏덉쓽�묐떟 */
+	.qna .add-file .attached-file.file-name-area{width:100%; justify-content: flex-start;}
+	.qna .add-file .attached-file.file-name-area .ico-pdf{padding-left:16px;margin-right:4px;vertical-align:middle;}
+	.qna .add-file .attached-file.file-name-area .file-name{display:inline-block;max-width:calc(100% - 150px);height:56px;line-height:56px;overflow:hidden;text-overflow:ellipsis;display:-webkit-inline-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;font-size:16px;color:#000;vertical-align:middle;}	
+	.qna .add-file .attached-file.file-name-area .byte{font-size:16px;color:#000;}
+
+	/* LIP_500 �댁슜沅� �좎젙寃곌낵 */
+	.ticket-result .border-box02{padding:32px 24px;}
+	.ticket-result .border-box02 .txt{font-size:24px;font-weight:500;}
+	.ticket-result .border-box02+.asterisk{margin-top:12px;font-size:16px;}
+	
+	/* LIP_200 �됱깮援먯쑁�댁슜沅� �댁슜 �댁뿭 */
+	.ticket-use-history.search-box{padding:12px 10px;background-color:var(--bg-color);border-radius:6px;}    
+	.ticket-use-history.search-box .search-list{align-items:center; gap: 10px;}
+	.ticket-use-history.search-box .search-list dt{width:auto;padding-left:0;font-size:18px;}
+	.ticket-use-history.search-box .search-list dd{padding:0 0 0 10px;}
+	.ticket-use-history.search-box .search-list dd select{width:100%;}
+	.ticket-use-history.search-box .btns{width:auto;height:40px;padding:7px 10px 6px 10px;margin:0;background-color:var(--blue);font-size:18px;}
+	.ticket-use-history.search-box .btns span.lg-only{display:none;}
+	.ticket-use-history.search-box .search-list.search-list-col {flex-direction: column; gap: 10px;}
+	.ticket-use-history.search-box .search-list.search-list-col > dl {display: flex; gap: 10px; width: 100%;}
+	.ticket-use-history.search-box .search-list.search-list-col dt,
+	.ticket-use-history.search-box .search-list dt {flex: 1; flex-shrink: 0;}
+	.ticket-use-history.search-box .search-list.search-list-col dd,
+	.ticket-use-history.search-box .search-list dd {flex-shrink: 0; flex-grow: 3; min-width: 0; padding: 0;}
+	.ticket-use-history.search-box .search-list.search-list-col dd .ui-select,
+	.ticket-use-history.search-box .search-list.search-list-col dd .ui-select *,
+	.ticket-use-history.search-box .search-list .ui-select,
+	.ticket-use-history.search-box .search-list .ui-select * {width: 100%;}
+	.ticket-use-history.search-box .search-list.search-list-col button {width: 100%;text-align: center;}
+	
+	.layer-border-box {padding: 16px; font-size: 18px; text-align: left;}
+
+	.layer-auth-agree > p {font-size: 14px; text-align: left;}
+	.layer-auth-agree .radio-wrap {justify-content: center; gap: 80px;}
+	.auth-res.info-area table .radio-wrap {flex-direction: column; gap: 10px;}
+
+	button.custom-select-open {height: 40px; padding: 0 8px; font-weight: 500; border-radius: 6px;}
+	button.custom-select-open,
+	.custom-select-list > li > a {font-size: 18px;}
+
+
+	/* �ъ뾽�덈궡 Style */
+	.info-tit-box .info-tit {
+		margin-bottom: 12px;
+		font-size: 26px;
+	}
+	.info-tit-box p.bullet {
+		font-size: var(--font-lv7);
+		margin-top: 12px;
+	}
+	.mo-info-box,
+	.info-box {
+		padding: 16px;
+		border-radius: 16px;
+		border: 1px solid var(--bd-color);
+	}
+	.mo-info-box > .info-box {
+		padding: 0;
+		background-color: inherit;
+		border-radius: 0;
+		border: 0;
+	}
+	.info-tit-box .info-box p {
+		font-size: var(--font-lv6);
+		font-weight: 700;
+		text-align: left;
+	}
+	.info-conts {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	.info-inner-conts {
+		gap: 12px;
+	}
+	.info-conts .info-inner-conts .img-conts {
+		margin-bottom: 8px;
+	}
+	.info-inner-conts.arrow-down {
+		padding-bottom: 80px;
+		background-size: 60px;
+	}
+	.info-inner-conts .mo-info-box {
+		gap: 10px;
+		background-color: var(--lightblue);
+	}
+	.info-inner-conts h3, .info-inner-conts .info-tit,
+	.info-inner-conts h3 { font-size: 24px;}
+	.info-inner-conts h4 { font-size: var(--font-lv5)}
+	.info-inner-conts p.sub-txt-box { 
+		font-size: 24px;
+		text-align: left;
+		font-weight: 500;
+	}
+		.info-inner-conts .info-box p {
+		font-size: var(--font-lv6);
+	}
+	.info-inner-conts p.bullet {
+		margin-top: 0;
+		font-size: var(--font-lv7);
+	}
+	.info-inner-conts .img-conts + p.bullet {
+		text-align: left;
+	}
+	.info-inner-conts ul.num-counter li::before {margin: 0;}
+	.info-inner-conts .sub-txt .num-counter.notPay-list li,
+	.info-inner-conts ul.num-counter li {
+		display: block;
+		font-size: var(--font-lv6);
+		padding: 0 0 0 20px;
+		text-indent: -20px;
+	}
+	.info-inner-conts ul.num-counter li p.bullet {
+		width: 100%;
+		padding-left: 18px;
+	}
+	.info-inner-conts * > .bullet {margin-bottom: 8px;}
+	.info-inner-conts * > .bullet:last-child { margin-bottom: 0;}
+	/* �덉감 */
+	.info-inner-conts .reg-step,
+	.info-inner-conts .use-step {
+		padding: 0;
+		border: 0;
+		background: 0;
+		flex-direction: column;
+		gap: 44px;
+	}
+	.info-inner-conts .reg-step li.step,
+	.info-inner-conts .use-step li.step {
+		position: relative;
+		display: flex;
+		align-items: center;
+		width: 100%;
+		padding: 16px;
+        background-color: #F7F9FC;
+        border-radius: 16px;
+        border: 1px solid var(--bd-color);
+	}
+	.info-inner-conts .use-step li.step {
+		padding: 0;
+		background: transparent;
+		border-radius: 0; border: 0;
+	}
+	.info-inner-conts .reg-step li.step::after,
+	.info-inner-conts .use-step li.step::after {
+		content: "";
+		position: absolute;
+		left: 50%; bottom: -34px; 
+		transform: translateX(-50%);
+		display: block;
+		width: 24px; height: 24px;
+		background: url(https://www.lllcard.kr/images/biz2/step/step_arrow_down.svg) no-repeat center;
+	}
+	.info-inner-conts .reg-step li.step:last-child::after,
+	.info-inner-conts .reg-step li.step-arrow,
+	.info-inner-conts .use-step li.step:last-child::after,
+	.info-inner-conts .use-step li.step-arrow {
+		display: none;
+	}
+	.info-inner-conts .reg-step li span.step-img,
+	.info-inner-conts .use-step li span.step-img {
+		max-width: 82px; height: 82px;
+		margin: 0 20px 0 0;
+		border-radius: 9px;
+	}
+	.info-inner-conts .reg-step li .step-num,
+	.info-inner-conts .reg-step li .step-tit,
+	.info-inner-conts .use-step li .step-num,
+	.info-inner-conts .use-step li .step-tit  {
+		margin-right: 4px;
+		font-size: var(--font-lv6);
+	}
+	.info-inner-conts .use-rule-list li {
+		display: flex;
+		padding-left: 0;
+		min-height: 80px;
+		flex-direction: column;
+		background: 0 !important;
+	}
+	.info-inner-conts .use-rule-list li b {
+		padding-left: 100px;
+		min-height: 80px;
+		background: url(https://www.lllcard.kr/images/biz2/img/img_use_rule01.png) no-repeat left top/80px auto;
+		font-size: 18px;
+	}
+	.info-inner-conts .use-rule-list li.use-rule02 b {background-image: url(https://www.lllcard.kr/images/biz2/img/img_use_rule02.png);}
+	.info-inner-conts .use-rule-list li.use-rule03 b {background-image: url(https://www.lllcard.kr/images/biz2/img/img_use_rule03.png);}
+	.info-inner-conts .use-rule-list li.use-rule04 b {background-image: url(https://www.lllcard.kr/images/biz2/img/img_use_rule04.png);}
+	.info-inner-conts .use-rule-list li.use-rule05 b {background-image: url(https://www.lllcard.kr/images/biz2/img/img_use_rule05.png);}
+
+	.info-inner-conts .use-rule-list li span.bullet,
+	.info-inner-conts .use-rule-list li span {
+		font-size: var(--font-lv7);
+		min-height: auto;
+	}
+	.info-inner-conts .use-rule-list li span.step-img {
+		max-width: 80px;
+	}
+	.list-btn-box {
+		margin-top: 12px;
+		flex-direction: column;
+		gap: 12px;
+	}
+	.list-btn-box button {
+		width: auto !important;
+		order: 1;
+		margin-left: auto;
+	}
+	.list-btn-box .bullet-list {
+		order: 2;
+	}
+	.outline-label {
+		display: block;
+        width: auto; max-width: fit-content;
+        margin-bottom: 4px;
+        line-height: 27px;
+	}
+
+	/* �ы깉 硫붿씤 */
+	.portalNat .map-info-txt {font-size: 16px;}
+	.portalNat .region-card.detail a {font-size: 14px;}
+	.portalNat .main-info-right {margin-top: 40px;}
+	.portalNat .main-info-right .more-link-area {row-gap: 60px;}
+	.portalNat .main-info-right .main-notice-detail {order: 2; padding: 0; height: auto;}
+	.portalNat .main-info-right .main-notice-detail .main-tit-group {margin-bottom: 16px;}
+	.portalNat .main-info-right .main-notice-detail .swiper {position: relative;}
+	.portalNat .main-info-right .main-notice-detail .swiper-slide {border: 1px solid var(--bd-color); border-radius: 16px; padding: 16px 16px 64px 16px;}
+	.portalNat .main-info-right .main-notice-detail .swiper-indicator {right: 16px; bottom: 16px;}
+	.portalNat .main-info-right .main-notice-detail ul > li > a {margin: 0 0 12px 0;}
+	.portalNat .main-info-right .main-notice-detail .main-tit-group h2 {font-size: 26px;}
+	.region-card.detail a:active {color: var(--blue); background-color: #fff;}
+	.map-svg g:active {fill: #5CAEFA; transform: scale(1.2);}
+}
+
+@media only screen and (max-width:800px){
+	.portalNat .main-info-left .main-info-wrap {gap: 16px;}
+	.portalNat .main-info-left .main-info-wrap {flex-direction: column;}
+	.portalNat .main-info-left .main-info-region {order: 1; padding: 16px;}
+	.portalNat .main-info-left .main-info-explain {order: 2; height: 80px; line-height: 80px; width: 100%; font-size: 22px; padding: 18px 16px; display: flex; align-items: center;}
+	.portalNat .main-info-explain {background-color: #fff; background-image: none;} 
+	.portalNat .main-info-explain .ico {top: 50%; bottom: auto; right: 16px; transform: translateY(-50%);}
+	.portalNat .main-info-explain .ico::before {width: 44px; height: 44px;}
+	.portalNat .main-info-region .region-card-container {position: static; transform: translateX(0);}
+	.portalNat .main-info-left .main-info-region h2 {font-size: 22px;}
+	.portalNat .main-info-left .main-info-region p {font-size: 14px; font-weight: 500;}
+	.portalNat .main-info-left .main-info-region .main-info-select {position: static; margin-top: 6px;}
+	.portalNat .main-info-left .main-info-region .main-info-select .custom-select-box {width: 137px;}
+
+	.layer-pop table td .flex-ac.auth-num {justify-content: end;}
+	.layer-pop table td .flex-ac.auth-num input[type="number"]{width: 100%; flex: auto;}
+}
+
+@media screen and (max-width: 1024px) {
+	.footer-show {display: block;}
+	footer .info-content > div {
+		justify-content: space-around;
+	}
+	footer .info-content > div .foot-logo {
+		flex-direction: column;
+	}
+	footer .info-content > div .family-select-lg {
+		width: 240px;
+	}
+	.foot-logo li img {max-width: 146px;}
+	footer .info-content .link-area {justify-content: flex-start;}
+	footer .info-content > div address span > span { margin-left: 10px;}
+
+	.portalNat footer .info-content .site-info {gap: 40px; justify-content: space-between;}
+	.portalNat footer .info-content .site-info > * {flex: 1 1 auto;}
+	.portalNat footer .info-content .site-info .business-hours {flex-basis: 40%;}
+	.portalNat footer .info-content .site-info div:first-child {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	footer {
+		position: relative;
+	}
+	.portalNat footer .info-content,
+	footer .info-content {
+		padding: 84px 0 20px;
+	}
+	footer .info-content > div {
+		flex-direction: column;
+		gap: 20px;
+	}
+	footer .info-content > div .foot-logo {
+		width: 100%;
+		flex-direction: row;
+	}
+	footer .info-content > div .family-select-lg {
+		position: absolute;
+		top: 20px;
+		width: 100%;
+		top: 20px;
+	}
+	.portalNat footer .info-content .site-info {
+		gap: 4px;
+	}
+	.portalNat footer .info-content .site-info div:first-child {gap: 20px;}
+	.portalNat footer .info-content > div address strong {font-size: 26px;}
+	.region-card a {font-size: 14px;}
+}
+
+/* 吏��� 諛섏쓳�� �띿뒪�� �꾩튂 */
+@media screen and (max-width: 430px) {
+	.region-card a.gyeonggi {left: 30%;}
+	.region-card a.sejong 	{top: 38%;}
+	.region-card a.daegu 	{left: 75%; top: 54%;}
+	.region-card a.gwangju 	{left: 26%; top: 68%;}
+	.region-card a.gangwon 	{left: 63%;}
+	.region-card a.chungbuk {left: 50%;}
+	.region-card a.chungnam {left: 15%; top: 45%;}
+	.region-card a.jeonbuk	{left: 18%;}
+	.region-card a.jeju 	{left: 37%; top: 93%;}
+}
