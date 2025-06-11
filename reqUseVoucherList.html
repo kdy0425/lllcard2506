@@ -11946,7 +11946,7 @@ function actionLogout(){
                 <script type="text/javascript" charset="utf-8" src="https://www.lllcard.kr/esign2/oacx-vendor.js"></script>
                 <script type="text/javascript" charset="utf-8" src="https://www.lllcard.kr/esign2/oacx-ux.js"></script>
                 <link rel="stylesheet" type="text/css" charset="utf-8" href="https://www.lllcard.kr/esign2/oacx-ux.css" data-cssvars="skip" data-cssvars-job="1">
-                <link rel="stylesheet" type="text/css" href="https://www.lllcard.kr/css/biz2/popup.css" data-cssvars="src" data-cssvars-job="1" data-cssvars-group="8">
+                <link rel="stylesheet" type="text/css" href="./css/biz2/popup.css" data-cssvars="src" data-cssvars-job="1" data-cssvars-group="8">
                 <style data-cssvars="out" data-cssvars-job="1" data-cssvars-group="8">
                     .simplebar-track {
                         opacity: 1 !important;
@@ -12262,12 +12262,12 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
             <!--2021.10.22 top메뉴 현재 표시-->
         </form>
         <div class="ui-widget-overlay ui-front"></div>
-        <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable" tabindex="-1" role="dialog" style="position: absolute; height: auto; width: auto; top: 353.5px; left: 167px; display: block;" aria-describedby="divId1" aria-labelledby="ui-id-2">
+        <div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front ui-draggable ui-resizable" tabindex="-1" role="dialog" style="position: absolute; height: auto; width: 920px;max-width:95%; top: 100.5px; left: 50%;transform: translate(-50%,0); display: block;" aria-describedby="divId1" aria-labelledby="ui-id-2">
         <div id="divId1" class="ui-dialog-content ui-widget-content" style="display: block; width: auto; min-height: 60px; max-height: none; height: auto;">
 
             <!-- iframe으로 불러오는 내용 -->
             <style>
-                @media only screen and (max-width:500px) {
+                @media only screen and (max-width:980px) {
                     .layer_popup {
                         padding: 30px 16px;
                     }
@@ -12284,7 +12284,7 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
 
                     .layer_title {
                         margin-bottom: 16px;
-                        padding: 0 20px;
+                        padding: 0;
                     }
 
                     .layer_title h3 {
@@ -12336,7 +12336,7 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
                     .table_round tr {
                         display: flex;
                         flex-wrap: wrap;
-                        align-items: center;
+                        align-items: unset;
                     }
 
                     .table_round th {
@@ -12344,7 +12344,7 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
                         align-items: center;
                         width: 120px;
                         padding: 12px 16px;
-                        height: 45px;
+                        height: auto;
                     }
 
                     .table_round td {
@@ -12463,7 +12463,6 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
 
                     .blue_bg_box .btn_box {
                         padding-top: 12px;
-                        margin-left: auto;
                     }
 
                     .red_caution {
@@ -12646,7 +12645,7 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
                 <div class="layer_box">
                     <div class="layer_title">
                         <h3>자격검증</h3>
-                        <button type="button" class="popup_close" onclick="fn_close();">닫기</button>
+                        <button type="button" class="popup_close" onclick="$('#divId1').hide();">닫기</button>
                     </div>
                     <div class="layer_section">
                         <div class="table_round">
@@ -12664,13 +12663,14 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
                                         <th>주민등록번호</th>
                                         <td>900415-1******</td>
                                         <th>자격검증 선택</th>
-                                        <td>
-                                            <select name="authTargetTypeTest" id="authTargetTypeTest" style="width:240px;min-width: 0%" title="대상 유형">
+                                        <td style="flex-wrap: wrap;height:auto;">
+                                            <select name="authTargetTypeTest" id="authTargetTypeTest" style="width:100%;min-width: 0%" title="대상 유형">
                                                 <option value="">선택</option>
                                                 <option value="B">기초생활수급자</option>
                                                 <option value="P">차상위자</option>
                                                 <option value="L">기타(기준 중위소득)</option>
-                                            </select> &nbsp;&nbsp;&nbsp; <span style="font-size: 15px;">테스트시에만 자격검증 선택 화면이 노출됩니다.</span>
+                                            </select> 
+                                            <div style="font-size: 15px;">테스트시에만 자격검증 선택 화면이 노출됩니다.</div>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -12709,8 +12709,8 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
                                     <div class="tit">
                                         <span style="font-size:14px;">
                                             <br> 신청인 정보를 확인하기 위해 신청인 전화번호를 입력해주세요. <br>
-                                            <span class="cnt">
-                                                <select id="areaHpNo" name="areaHpNo" style="width: 100px;min-width: 0%;">
+                                            <span class="cnt flex-input2">
+                                                <select id="areaHpNo" name="areaHpNo">
                                                     <option value="">선택</option>
                                                     <option value="010">010</option>
                                                     <option value="011">011</option>
@@ -12720,9 +12720,9 @@ xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 4 4 20M20 20 4 4'stroke='%23
                                                     <option value="019">019</option>
                                                 </select>
                                                 <span class="dash">-</span>
-                                                <input type="text" style="width: 105px;" name="midHpNo" id="midHpNo" value="" maxlength="4" title="전화번호 중간자리">
+                                                <input type="text"  name="midHpNo" id="midHpNo" value="" maxlength="4" title="전화번호 중간자리">
                                                 <span class="dash">-</span>
-                                                <input type="text" style="width: 105px;" name="endHpNo" id="endHpNo" value="" maxlength="4" title="전화번호 끝자리">
+                                                <input type="text"  name="endHpNo" id="endHpNo" value="" maxlength="4" title="전화번호 끝자리">
                                             </span>
                                         </span>
                                     </div>

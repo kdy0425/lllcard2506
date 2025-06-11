@@ -12379,23 +12379,27 @@ function actionLogout(){
                                                 <label>휴대폰 번호</label>
                                             </div>
                                             <div class="ul-td">
-                                                <select title="통신사 선택" data-id="oacx_phone0" class="one-third mr15" style="display: none;">
-                                                    <!---->
-                                                    <option selected="selected" disabled="disabled">통신사</option>
-                                                    <option value="S">SKT</option>
-                                                    <option value="K">KT</option>
-                                                    <option value="L">LGU+</option>
-                                                </select>
-                                                <select title="휴대폰번호 앞자리 선택" data-id="oacx_phone1" class="">
-                                                    <!---->
-                                                    <option value="010">010</option>
-                                                    <option value="011">011</option>
-                                                    <option value="016">016</option>
-                                                    <option value="017">017</option>
-                                                    <option value="018">018</option>
-                                                    <option value="019">019</option>
-                                                </select>
-                                                <input data-id="oacx_phone2" type="text" inputmode="numeric" title="휴대폰번호 뒷자리 여덟자리" placeholder="12341234" maxlength="8" class="onlyNum phone">
+                                                <div class="flex-input">
+                                                    <select title="통신사 선택" data-id="oacx_phone0" class="one-third mr15" style="display: none;">
+                                                        <!---->
+                                                        <option selected="selected" disabled="disabled">통신사</option>
+                                                        <option value="S">SKT</option>
+                                                        <option value="K">KT</option>
+                                                        <option value="L">LGU+</option>
+                                                    </select>
+                                                </div>
+                                                <div class="flex-input">
+                                                    <select title="휴대폰번호 앞자리 선택" data-id="oacx_phone1" class="">
+                                                        <!---->
+                                                        <option value="010">010</option>
+                                                        <option value="011">011</option>
+                                                        <option value="016">016</option>
+                                                        <option value="017">017</option>
+                                                        <option value="018">018</option>
+                                                        <option value="019">019</option>
+                                                    </select>
+                                                    <input data-id="oacx_phone2" type="text" inputmode="numeric" title="휴대폰번호 뒷자리 여덟자리" placeholder="12341234" maxlength="8" class="onlyNum phone">
+                                                </div>
                                             </div>
                                         </li>
                                     </ul>

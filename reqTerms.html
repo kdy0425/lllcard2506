@@ -706,6 +706,11 @@ function actionLogout(){
                                 <strong class="step-tit">신청완료</strong>
                             </li>
                         </ul>
+                        <div class="step-mobile">
+                            <div class="numbers">
+                                <div class="item"><span class="num">1</span></div>
+                            </div>
+                        </div>
                         <hr>
                         <h2 class="step-title">1. 약관동의</h2>
                         <div class="agree-box">
@@ -746,9 +751,9 @@ function actionLogout(){
                     <!-- popup -->
                     <div id="accAgreePopup" class="layer-pop" data-pop="pop-1">
                         <div class="layer-content">
-                            <div class="layer-scroll">
+                            <div class="layer-inner">
                                 <span class="title">평생교육이용권 홈페이지 이용약관</span>
-                                <div class="info-area">
+                                <div class="info-area layer-scroll-auto">
                                     <div class="layer-agree-box layer-scroll-box txt-indent-20">
                                         <div class="layer-agree-body">
                                             <div class="layer-agree-header">
@@ -932,13 +937,10 @@ function actionLogout(){
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="layer-btn-wrap">
-                                        <button class="btns layer-close" onclick="fn_confirm('accAgreePopup')">확인</button>
-                                    </div>
                                 </div>
-                                <button class="close-btn layer-close layer-hide-trigger" onclick="$('[data-pop=pop-1]').hide();">
-                                    <span class="blind">레이어 팝업 닫기</span>
-                                </button>
+                                <div class="layer-btn-wrap">
+                                    <button class="btns layer-close" onclick="fn_confirm('accAgreePopup')">확인</button>
+                                </div>
                             </div>
                         </div>
                     </div>
