@@ -515,7 +515,7 @@
 	/* �덉씠�� 踰꾪듉 怨듯넻 */
 	.layer-pop .layer-btn-wrap .btns,
 	.new-window-pop .new-window-btn-wrap .btns{width: 134px; font-size: 18px;}
-	.layer-content .layer-scroll .close-btn {right: 16px; top: 12px;}
+	.layer-content .layer-scroll .close-btn {right: 16px; top: 19px;}
 
 	/* �덉씠�� �뚯씠釉� 怨듯넻 */
 	.layer-pop :where(.com-view-table, .com-write-table) th,
