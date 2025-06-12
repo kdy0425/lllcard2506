@@ -762,7 +762,9 @@ button.custom-select-open.is-open {background:#fff url(https://www.lllcard.kr/im
 	gap: 32px;
 	text-align: center;
 }
-
+.step-list li.step {
+	flex:1 1;
+}
 .step-list li.step-arrow {
 	min-width: 48px;
 }

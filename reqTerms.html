@@ -706,11 +706,6 @@ function actionLogout(){
                                 <strong class="step-tit">신청완료</strong>
                             </li>
                         </ul>
-                        <div class="step-mobile">
-                            <div class="numbers">
-                                <div class="item"><span class="num">1</span></div>
-                            </div>
-                        </div>
                         <hr>
                         <h2 class="step-title">1. 약관동의</h2>
                         <div class="agree-box">
@@ -946,9 +941,9 @@ function actionLogout(){
                     </div>
                     <div id="privAgreePopup" class="layer-pop" data-pop="pop-2">
                         <div class="layer-content">
-                            <div class="layer-scroll">
+                            <div class="layer-inner">
                                 <span class="title">평생교육이용권 신청을 위한 개인정보 수집 · 이용 동의(필수)</span>
-                                <div class="info-area">
+                                <div class="info-area layer-scroll-auto">
                                     <div class="layer-agree-box layer-scroll-box">
                                         <p> 평생교육이용권 홈페이지에서 제공하는 인터넷 관련 서비스를 원활하게 수행하기 위하여 개인정보의 수집.유출.오용.남용으로부터 사생활의 비밀 등을 보호하도록 한 개인정보보호법 규정에 따라 다음과 같이 수집·이용 됩니다. </p>
                                         <div class="conts-header">
@@ -1089,13 +1084,10 @@ function actionLogout(){
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="layer-btn-wrap">
-                                        <button class="btns" onclick="fn_confirm('privAgreePopup');">확인</button>
-                                    </div>
                                 </div>
-                                <button class="close-btn layer-hide-trigger" onclick="$('[data-pop=pop-2]').hide();">
-                                    <span class="blind">레이어 팝업 닫기</span>
-                                </button>
+                                <div class="layer-btn-wrap">
+                                    <button class="btns" onclick="fn_confirm('privAgreePopup');">확인</button>
+                                </div>
                             </div>
                         </div>
                     </div>
